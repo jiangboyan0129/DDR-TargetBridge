@@ -1,0 +1,17 @@
+{
+  "status": "EXPLORATORY_FACTORIAL_DESCRIPTION_NOT_TARGET_VALIDATION",
+  "all_units": 20428,
+  "estimable_units": 19174,
+  "one_construct_units": 19174,
+  "NTC_N": 1024,
+  "endpoint_culture_records_per_cell": 3,
+  "real_T0_records_per_background": 2,
+  "biological_clone_generalisation": "NOT_IDENTIFIED: WT/KO background, selected clone and cell-line construction can be confounded",
+  "theta_median": 0.05294400848358462,
+  "theta_abs_median": 0.18582960971961315,
+  "exact_zero_theta_N": 0,
+  "leave_one_endpoint_crosses_or_touches_zero_N": 7271,
+  "growth_normalised_rho": false,
+  "NTC_false_discovery_rate": false,
+  "prior_work": "Parent study already investigated PRDX1-dependent DDR/iron biology; this is not rediscovery of that mechanism."
+}

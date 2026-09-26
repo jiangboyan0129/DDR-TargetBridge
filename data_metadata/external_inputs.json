@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "R1",
+    "public_path": "data/historical_sources/stage0/raw/SPIDR_Table3_GEMINI.csv",
+    "bytes": 4245602,
+    "sha256": "341e2625e3383c8ba7e446bd230eae7502c066da95a91563311cda16dcd34d13",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-08815-4/MediaObjects/41586_2025_8815_MOESM5_ESM.csv"
+  },
+  {
+    "dataset": "R2",
+    "public_path": "data/historical_sources/stage0/raw/DDRi_Dataset1_v2.xlsx",
+    "bytes": 34048478,
+    "sha256": "d71242b0a5c18f4eeb53e1f5d4db5580432f8ecf2d5e9c88d66977e30220f367",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41589-026-02312-z/MediaObjects/41589_2026_2312_MOESM3_ESM.xlsx"
+  },
+  {
+    "dataset": "R3",
+    "public_path": "data/historical_sources/stage0/raw/DDRi_Dataset3_v3.xlsx",
+    "bytes": 9732112,
+    "sha256": "1a6dc8dfdd36b7b9fedb2cc4f878e7ec362845c6a4c714fb61f6e5f9f6edd7fc",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41589-026-02312-z/MediaObjects/41589_2026_2312_MOESM5_ESM.xlsx"
+  }
+]

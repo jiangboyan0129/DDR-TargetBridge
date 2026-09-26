@@ -1,0 +1,10 @@
+{
+  "reference_only_qualification": true,
+  "T0_and_vehicle_mean_minimum": 40,
+  "qualified_constructs": 20198,
+  "NTC_N": 1024,
+  "membership_sha256": "dba9121b789823fd9f219d24388549a96a1ed1647bb8dc51f8966d6a4b4d0b11",
+  "primary": "equal mean over common fixed construct log abundances within target×transcript; no growth rescaling",
+  "no_best_guide_or_transcript": true,
+  "no_p_or_FDR": true
+}

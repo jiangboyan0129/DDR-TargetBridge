@@ -1,0 +1,77 @@
+{
+  "status": "LOCAL_PREFLIGHT_PASS_REMOTE_PUBLICATION_PENDING",
+  "date": "2026-09-26",
+  "repository": "https://github.com/jiangboyan0129/DDR-TargetBridge",
+  "release_tag": "v1.0.0",
+  "source_archive": "DDR_TARGETBRIDGE_PORTFOLIO_READY_V3.zip",
+  "source_archive_sha256_before_and_after": "4cee672f6b2c3518c18dfa92995b340f694ce3191d7edea41bbb8253b06e2f82",
+  "source_archive_unchanged": true,
+  "science_bytes_verified": 96,
+  "scientific_results_modified": false,
+  "new_scientific_analysis": false,
+  "unit_tests": {
+    "total": 71,
+    "passed": 71,
+    "suites": {
+      "original_core": 27,
+      "revision": 14,
+      "historical_metrics": 22,
+      "public_packaging": 8
+    }
+  },
+  "public_core": {
+    "status": "PUBLIC_DERIVED_CORE_REPRODUCTION_PASS",
+    "input_layer": "Frozen transformed per-gene/per-sample records after prior qualification, normalization and transcript aggregation",
+    "input_records": 13088,
+    "pathway_sample_rows": 96,
+    "fixed_comparisons": 6,
+    "numeric_metrics_per_comparison": 15,
+    "all_expected_values_match": true,
+    "tolerance": 1e-10,
+    "raw_count_qualification_or_normalization_reexecuted": false,
+    "new_scientific_analysis": false,
+    "independent_biological_validation": false
+  },
+  "historical": {
+    "status": "PASS",
+    "canonical_tables": 16,
+    "R2_records_exact": 99294,
+    "source_files": 3,
+    "source_workbooks_committed": false,
+    "missing_source_gate": "EXTERNAL_INPUTS_REQUIRED before execution"
+  },
+  "environment": {
+    "python": "3.13.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pip_check": "PASS"
+  },
+  "visual": {
+    "report_pages_inspected": 8,
+    "brief_pages_inspected": 1,
+    "slides_inspected": 9,
+    "updated_slides_rerendered": [
+      7,
+      9
+    ],
+    "remote_readme": "PENDING"
+  },
+  "publication": {
+    "remote_created": false,
+    "push": false,
+    "CI": "PENDING",
+    "release": "PENDING"
+  },
+  "deliberate_exclusions": [
+    "original V3 archive",
+    "raw publisher workbooks and CSV",
+    "raw-count-preserving integer export",
+    "complete v3 normalized matrix",
+    "full discovery registry",
+    "simulated review DOCX files",
+    "private provenance and runtime logs",
+    "original editable deck with obsolete reproduction instructions"
+  ],
+  "rights": "Source-specific licensed derived evidence retained; ambiguous source-object rights produce metadata-only entries. No repository-wide software license chosen.",
+  "authorship": "Public individual byline and role declarations remain unconfirmed; AI assistance disclosed."
+}

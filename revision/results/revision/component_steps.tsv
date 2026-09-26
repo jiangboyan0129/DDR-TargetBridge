@@ -1,0 +1,5 @@
+transform	step	delta_M	delta_C	delta_balance	interpretation
+zero_only_0.5	transcript_support	0.0	0.38376563957305204	-0.3837656395730526	sequential algebra, not a causal fraction
+zero_only_0.5	gene_membership	0.008963360015719957	2.247353860520439	-2.238390500504719	sequential algebra, not a causal fraction
+count_plus_1	transcript_support	0.0	0.3365988832540167	-0.33659888325401666	sequential algebra, not a causal fraction
+count_plus_1	gene_membership	0.004734495047973963	1.9591413289846873	-1.9544068339367127	sequential algebra, not a causal fraction

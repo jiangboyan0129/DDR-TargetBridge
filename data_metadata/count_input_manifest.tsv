@@ -1,0 +1,3 @@
+campaign	path	bytes	sha256	HDF5_signature	dimensions	sample_count	construct_count	hash_schema_status
+v2	[PRIVATE_PROJECT_ROOT]/outputs/ddr_target_bridge_upgrade_stage0/downloads/ddri/archive_inputs/A549_CRISPRi_v2_screens.h5ad.gz	33557890	381f3eef399c5e9c7cd8e240336f02a0aaa56fa3cfb7572a6230eb6236590f89	894844460d0a1a0a	(22, 205648)	22	205648	PASS
+v3	[PRIVATE_PROJECT_ROOT]/outputs/ddr_target_bridge_upgrade_stage0/downloads/ddri/archive_inputs/A549_PRDX1_CRISPRi_v3.h5ad.gz	23390327	ad63ac63ce484377252cd62e7f3162a275aae4e21e88e5ad123b1e5c75a320d4	894844460d0a1a0a	(16, 64237)	16	64237	PASS

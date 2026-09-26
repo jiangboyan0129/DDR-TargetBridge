@@ -1,0 +1,121 @@
+{
+  "parent_machine_lock_sha256": "f94ac5493d86d909300b15a788c2b671187549f65b8ac578b3aec99445186c28",
+  "inputs": [
+    {
+      "path": "[PRIVATE_PROJECT_ROOT]/outputs/ddr_target_bridge_stage0r_option_triage/downloads/p2/olaparib/readcount-matrix-sum149pt_ola.txt",
+      "bytes": 14239038,
+      "sha256": "e8aecd293439eaac6335037905bd67082af0e1909d8f1c184c7ee40b96aa5fb4"
+    },
+    {
+      "path": "[PRIVATE_PROJECT_ROOT]/DDR_FACTORIAL_BIOLOGY_ADVANCE/inputs/hap1_modules.json",
+      "bytes": 1332553,
+      "sha256": "fcba5a25df6b43b6cf55e9ab7e79091b6a5639deeae23d5ea20e588b57b3a8a3"
+    },
+    {
+      "path": "[PRIVATE_PROJECT_ROOT]/DDR_ACCELERATED_EVIDENCE_BATCH/inputs/p2_metadata/sample_manifest.tsv",
+      "bytes": 28429,
+      "sha256": "8fb64f7b12681ba800379dff97212a0ab15e4b135c861e75ca1e68a7e3d5622a"
+    },
+    {
+      "path": "[PRIVATE_PROJECT_ROOT]/DDR_ACCELERATED_EVIDENCE_BATCH/protocol/ANALYSIS_CONTRACT.json",
+      "bytes": 3202,
+      "sha256": "7c0c7a6e8f33fe26ac0fd9ad86e3934dba8342888af9ea38122d2e8892805961"
+    }
+  ],
+  "sample_ids": [
+    "SUM149PT_T0",
+    "SUM149PT_T6A",
+    "SUM149PT_T6B",
+    "SUM149PT_T6C",
+    "SUM149PT_T9B_CTRL",
+    "SUM149PT_T9B_OLA",
+    "SUM149PT_T9C_CTRL",
+    "SUM149PT_T9C_OLA",
+    "SUM149PT_T12A_CTRL",
+    "SUM149PT_T12A_OLA",
+    "SUM149PT_T12B_CTRL",
+    "SUM149PT_T12B_OLA",
+    "SUM149PT_T12C_OLA",
+    "SUM149PT_T15A_CTRL",
+    "SUM149PT_T15A_OLA",
+    "SUM149PT_T15B_CTRL",
+    "SUM149PT_T15B_OLA",
+    "SUM149PT_T15C_CTRL",
+    "SUM149PT_T15C_OLA",
+    "SUM149PT_T18A_CTRL",
+    "SUM149PT_T18A_OLA",
+    "SUM149PT_T18B_CTRL",
+    "SUM149PT_T18B_OLA",
+    "SUM149PT_T18C_CTRL",
+    "SUM149PT_T21A_CTRL",
+    "SUM149PT_T21A_OLA",
+    "SUM149PT_T21B_CTRL",
+    "SUM149PT_T21B_OLA",
+    "SUM149PT_T21C_CTRL",
+    "SUM149PT_T9A_CTRL",
+    "SUM149PT_T12C_CTRL",
+    "SUM149PT_T18C_OLA",
+    "SUM149PT_T9A_OLA",
+    "SUM149PT_T21C_OLA"
+  ],
+  "sample_pairing": "explicit sample_id validated against literal day/branch/arm metadata",
+  "K": 91320,
+  "eligibility": "T0>=40 and mean(T6A,T6B,T6C)>=40, fixed before all outcomes",
+  "identity_policy": "literal GENE only, all original guide records preserved",
+  "normalization": "log2(1e6*(count+1)/(full-library count total+91320))",
+  "reporter_labels": [
+    "EGFP",
+    "LacZ",
+    "luciferase"
+  ],
+  "reporter_sensitivity": "all and only reference-qualified exact reporter constructs median Z per sample",
+  "independent_selection": {
+    "guide_ids": [
+      "MRPS35_CACTGAGTGGCCAGCCGCAC",
+      "UNC50_GATGCGGCAAGACACACAGC",
+      "TXLNG_CCACAACGCCAAACTCCGAC",
+      "CREBL2_ATGTGCCCTCAGAGAGGAAC",
+      "NEK5_TCAGATGCATCTTGATGGAC",
+      "MN1_AGCTGCCCTTCGGAGTCAGA",
+      "KIFC3_CCTGCTGGTCACTGTCGCGG",
+      "IFT80_GGGTGTAAAGAAACAAACCC",
+      "HOXD10_CTGCACTTCGGGACTGGACA",
+      "TFF3_CCTTGGCTGGCACGGCACAC",
+      "LURAP1_GCTGCGAGGCGAGTGTGAGC",
+      "FSD2_TGCTCCAGTCATAAATCCAC",
+      "MAP3K3_TCAAGGCTTCCCAGTCCGCA",
+      "CPNE3_CTGATGGCCACTTCGCCCAA",
+      "PLIN3_GCTTCGAGCCACCAAGCAGA",
+      "MYLK3_GCCAGCACGAAGTCTTGGGA"
+    ],
+    "gene_labels": [
+      "FIS1",
+      "IGFN1",
+      "DMKN",
+      "TOR3A",
+      "ATP2C1",
+      "ZNF555",
+      "CSTF1",
+      "THRAP3",
+      "FOSL2",
+      "TNXB",
+      "FRRS1",
+      "NME9",
+      "PARP6",
+      "GJA10",
+      "ARL2",
+      "KCTD11"
+    ]
+  },
+  "module_n": 1416,
+  "fixed_examples": [
+    "HAP1.L2.46",
+    "HAP1.L2.112",
+    "HAP1.L2.2",
+    "HAP1.L2.125"
+  ],
+  "biological_independence": "3 shared-origin culture branches; independently initiated transduction count UNKNOWN",
+  "dose_binding": "0.2 uM supported by actual supplied Zimmermann Methods excerpt and OLA metadata; inherited dose_evidence text incorrectly generic to RPE1, retained separately in provenance note",
+  "time_binding": "drug start T6; T9/12/15/18/21 = 3/6/9/12/15 post-drug days; T0=-6 relative to start; T15 documented core endpoint; T18/21 lineage incomplete",
+  "population_doublings": "UNAVAILABLE; not estimated"
+}

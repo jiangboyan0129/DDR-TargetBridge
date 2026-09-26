@@ -1,0 +1,77 @@
+{
+  "F-GRID": {
+    "path": "results/canonical/support_views/decision_grid.tsv"
+  },
+  "F-FLOOR": {
+    "path": "results/canonical/support_views/count_floor.tsv"
+  },
+  "F-MEM": {
+    "path": "results/canonical/support_views/pathway_membership.tsv"
+  },
+  "F-LOO": {
+    "path": "results/extended/support_views/single_member_influence.tsv"
+  },
+  "F-JOINT": {
+    "path": "results/extended/support_views/joint_sample_influence.tsv"
+  },
+  "I-COVER": {
+    "path": "results/canonical/support_views/all_pathway_qualification.tsv"
+  },
+  "I-REC": {
+    "path": "data_metadata/support_qualification_receipt.json"
+  },
+  "I-EST": {
+    "path": "results/canonical/readout_boundaries/Fig5d_estimands.tsv"
+  },
+  "I-FIG5": {
+    "path": "results/canonical/readout_boundaries/Fig5d_groups.tsv"
+  },
+  "I-FIG5VAL": {
+    "path": "data/derived/parent_Fig5d_normalized_values.tsv"
+  },
+  "I-EXT": {
+    "path": "results/extended/readout_boundaries/all_extended6_groups.tsv"
+  },
+  "I-J": {
+    "path": "results/extended/readout_boundaries/extended6_interactions.tsv"
+  },
+  "I-SUM": {
+    "path": "results/canonical/temporal/fixed_balance_all_times.tsv"
+  },
+  "A-TRANS": {
+    "path": "provenance/evidence/added_transcripts_to_old_genes.tsv"
+  },
+  "M-A0": {
+    "path": "results/extended/aggregation/v2_matched_order.tsv"
+  },
+  "M-A0V3": {
+    "path": "results/extended/aggregation/v3_matched_order.tsv"
+  },
+  "D-PAIR": {
+    "path": "results/extended/discovery/all_pair_summary.tsv"
+  },
+  "D-SUM": {
+    "path": "results/canonical/discovery/discovery_summary.json"
+  },
+  "X-DISC": {
+    "path": "results/canonical/cross_program/discovery_contrasts.tsv"
+  },
+  "X-EXT": {
+    "path": "results/canonical/cross_program/R2_contrasts.tsv"
+  },
+  "V-SUM": {
+    "path": "results/canonical/factorial/factorial_summary.json"
+  },
+  "V-LOCK": {
+    "path": "config/v3_factorial_support.json"
+  },
+  "O-SUMMARY": {
+    "path": "results/extended/original_rule/analysis_summary.json"
+  },
+  "O-ALL12": {
+    "path": "results/extended/original_rule/all12_evidence.csv"
+  },
+  "O-META": {
+    "path": "data_metadata/original_screen_metadata.csv"
+  }
+}

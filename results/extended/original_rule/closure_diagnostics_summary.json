@@ -1,0 +1,384 @@
+{
+  "status": "COMPUTED_BOUNDED_RETROSPECTIVE",
+  "time_utc": "2026-09-19T20:19:28.635823+00:00",
+  "agreement": [
+    {
+      "cohort": "P380",
+      "endpoint": "drug_conditioned_rho",
+      "N": 380,
+      "spearman": 0.26440422207326847,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "P380",
+      "endpoint": "untreated_gamma",
+      "N": 380,
+      "spearman": 0.6121223320907966,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "P380_called12",
+      "endpoint": "drug_conditioned_rho",
+      "N": 12,
+      "spearman": 0.5664335664335665,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "P380_called12",
+      "endpoint": "untreated_gamma",
+      "N": 12,
+      "spearman": 0.5734265734265734,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "P380_comparator368",
+      "endpoint": "drug_conditioned_rho",
+      "N": 368,
+      "spearman": 0.2562080842346156,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "P380_comparator368",
+      "endpoint": "untreated_gamma",
+      "N": 368,
+      "spearman": 0.6006315477205241,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "G_unique",
+      "endpoint": "drug_conditioned_rho",
+      "N": 15855,
+      "spearman": -0.018693894065504937,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    },
+    {
+      "cohort": "G_unique",
+      "endpoint": "untreated_gamma",
+      "N": 15855,
+      "spearman": 0.39582285039717213,
+      "NA_reason": "",
+      "scope": "finite_set_descriptive_no_CI_no_pvalue",
+      "rank": "average_tie_midrank"
+    }
+  ],
+  "sign_counts": [
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "<0",
+      "N": 120
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": ">0",
+      "N": 119
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "<0",
+      "N": 0
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": ">0",
+      "N": 0
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "<0",
+      "N": 44
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": ">0",
+      "N": 97
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "<0",
+      "N": 5
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": ">0",
+      "N": 5
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "<0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": ">0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "<0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_called12",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": ">0",
+      "N": 2
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "<0",
+      "N": 115
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": ">0",
+      "N": 114
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "<0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": ">0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "<0",
+      "N": 44
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "P380_comparator368",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": ">0",
+      "N": 95
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "<0",
+      "N": 4121
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "<0",
+      "R3_rho_sign": ">0",
+      "N": 4941
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "<0",
+      "N": 0
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": "=0",
+      "R3_rho_sign": ">0",
+      "N": 0
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "<0",
+      "N": 3146
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": "=0",
+      "N": 0
+    },
+    {
+      "cohort": "G_unique",
+      "R2_rho_sign": ">0",
+      "R3_rho_sign": ">0",
+      "N": 3647
+    }
+  ],
+  "controls": [
+    {
+      "assay": "R2",
+      "unit": "published_pseudocontrol_gene",
+      "endpoint": "rho:DNAPKi_vs_DMSO",
+      "N_total": 18742,
+      "N_finite": 18742,
+      "N_missing": 0,
+      "median": -0.0011161096794780568,
+      "p05": -0.27369249029798154,
+      "p95": 0.2626453668807729,
+      "quantile_method": "linear_interpolation_type7",
+      "scope": "own_assay_descriptive_not_target_uncertainty_not_hit_threshold"
+    },
+    {
+      "assay": "R3",
+      "unit": "negative_control_guide_element",
+      "endpoint": "parent::rho:DNAPKi_vs_vehicle",
+      "N_total": 1021,
+      "N_finite": 1018,
+      "N_missing": 3,
+      "median": 0.0206086728089607,
+      "p05": -0.9250593719650305,
+      "p95": 0.8981052649241261,
+      "quantile_method": "linear_interpolation_type7",
+      "scope": "own_assay_descriptive_not_target_uncertainty_not_hit_threshold"
+    }
+  ],
+  "G_unique_N": 15855,
+  "source_order": [
+    "MCM4",
+    "FANCF",
+    "GTF2H5",
+    "DDX1",
+    "DCLRE1B",
+    "UBR5",
+    "TRIP13",
+    "DOT1L",
+    "UHRF1",
+    "UBE2V2",
+    "UBE2N",
+    "RNF8"
+  ],
+  "omitted_called24_reason_counts": {
+    "no_exact_R3_WT_symbol": 7,
+    "no_exact_R2_symbol;no_exact_R3_WT_symbol": 15,
+    "no_original_R3_record_with_finite_parent_rho_and_parent_gamma": 2
+  },
+  "S2_removed": [
+    "MORF4L2",
+    "PIF1"
+  ],
+  "S3_equals_P380": true,
+  "sentinel_core_rho": [
+    {
+      "resource": "R2",
+      "gene": "PRDX1",
+      "record_id": "R2:12567",
+      "element_id": "not_in_processed_file",
+      "context": "parental_A549",
+      "endpoint": "rho:DNAPKi_vs_DMSO",
+      "transcript": "P1P2",
+      "published_score": "-3.0535675885787978",
+      "score": -3.053567588578798,
+      "label": "sensitivity_hit",
+      "role": "fixed_parent_report_sentinel_not_source_called_not_independent_validation",
+      "core_DNAPKi_rho": true,
+      "matched_core_gamma": "-0.89256493352301636",
+      "matched_core_gamma_transcript": "P1P2"
+    },
+    {
+      "resource": "R3",
+      "gene": "PRDX1",
+      "record_id": "R3:13184",
+      "element_id": "PRDX1_-_45987092.23-P1P2|PRDX1_-_45987480.23-P1P2",
+      "context": "parent",
+      "endpoint": "parent::rho:DNAPKi_vs_vehicle",
+      "transcript": "P1P2",
+      "published_score": "-10.6029541292655",
+      "score": -10.6029541292655,
+      "label": "sensitivity_hit",
+      "role": "fixed_parent_report_sentinel_not_source_called_not_independent_validation",
+      "core_DNAPKi_rho": true,
+      "matched_core_gamma": "-0.14899696011899299",
+      "matched_core_gamma_transcript": "P1P2"
+    }
+  ],
+  "no_tests_no_bootstrap_no_new_model_no_biological_transform": true
+}

@@ -1,0 +1,8 @@
+# Preserve frozen byte identities across platforms.
+* -text
+*.pdf binary
+*.pptx binary
+*.docx binary
+*.png binary
+*.gz binary
+*.zip binary

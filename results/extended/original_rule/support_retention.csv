@@ -1,0 +1,7 @@
+cohort,class,source_N,retained_N,omitted_N,retention_fraction
+threeway419,source_called,36,14,22,0.3888888888888889
+threeway419,source_not_called,511,405,106,0.7925636007827789
+P400,source_called,36,12,24,0.3333333333333333
+P400,source_not_called,511,388,123,0.7592954990215264
+P380,source_called,36,12,24,0.3333333333333333
+P380,source_not_called,511,368,143,0.7201565557729941

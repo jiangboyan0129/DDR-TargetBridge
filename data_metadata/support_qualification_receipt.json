@@ -1,0 +1,31 @@
+{
+  "status": "COVERAGE_COMPLETE_NEW_V3_NUMERICS_STOPPED",
+  "reference_design_construct_N": 64661,
+  "matrix_construct_N": 64237,
+  "matrix_missing_design_records": 424,
+  "old_eligible_construct_N": 20198,
+  "T0_only_eligible_construct_N": 21169,
+  "added_construct_N": 971,
+  "fixed_old_NTC_N": 1024,
+  "T0_only_reference_NTC_N_if_reselected_NOT_USED": 1024,
+  "old_eligible_noncontrol_gene_N": 17705,
+  "T0_only_eligible_noncontrol_gene_N": 18613,
+  "old_membership_sha256": "dba9121b789823fd9f219d24388549a96a1ed1647bb8dc51f8966d6a4b4d0b11",
+  "old_unit_membership_changes_if_sensitivity_computed": 0,
+  "pathway_N": 2868,
+  "old_pathway_status_counts": {
+    "OBSERVED_PROJECTION": 1585,
+    "COMPLETE_MEMBERSHIP": 1233,
+    "NO_SUPPORT": 50
+  },
+  "T0_only_pathway_support_status_counts": {
+    "COMPLETE_MEMBERSHIP": 1502,
+    "OBSERVED_PROJECTION": 1324,
+    "NO_SUPPORT": 42
+  },
+  "old_sample_regression_N": 192,
+  "old_sample_regression_max_error": 4.440892098500626e-16,
+  "count_plus1_conflict_max_difference": 0.014257117513709616,
+  "new_score_status": "STOP_NORMALIZATION_DEFINITION_CONFLICT",
+  "scope_limit": "T0-only eligibility/support is computed; no new Z/effects/NTC reselection or threshold changes."
+}

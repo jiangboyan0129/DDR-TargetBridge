@@ -1,0 +1,11 @@
+.build/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.log
+data/historical_sources/stage0/raw/
+data/derived/final_count_export.tsv.gz
+data/derived/v3_factorial_sample_values.tsv.gz

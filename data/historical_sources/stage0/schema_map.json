@@ -1,0 +1,1881 @@
+{
+  "purpose": "Resource qualification; original values retained; no scientific evaluation.",
+  "R1": {
+    "format": "UTF-8 CSV",
+    "headers": [
+      "gene_combination",
+      "sens.score",
+      "rank"
+    ],
+    "data_rows": 149787,
+    "columns": 3,
+    "gene1_gene2": "Split exactly once on semicolon; preserve orientation.",
+    "canonical_pair": "Lexically sorted two original symbols separated by semicolon; added ID only.",
+    "sens.score": "Published sign-transformed GEMINI sensitive score; more negative = stronger adverse genetic interaction. Published zeros are real published values; never imputed.",
+    "rank": "Original publisher rank retained verbatim; never recomputed or used for selection.",
+    "historical_threshold": "sens.score <= -1, source-only label; all 547 PRKDC rows retained.",
+    "replicate_or_guide_values": "Absent from this CSV; design metadata in screen_metadata.csv.",
+    "source": "https://www.nature.com/articles/s41586-025-08815-4"
+  },
+  "workbook_structure": [
+    {
+      "resource_id": "R2",
+      "filename": "DDRi_Dataset1_v2.xlsx",
+      "bytes": 34048478,
+      "sha256": "d71242b0a5c18f4eeb53e1f5d4db5580432f8ecf2d5e9c88d66977e30220f367",
+      "numeric_extraction": "literal OOXML <v> strings; no float conversion or rounding",
+      "sheets": [
+        {
+          "name": "Readme",
+          "sheet_id": "3",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet1.xml",
+          "declared_dimension": "A1:A4",
+          "merged_ranges": [],
+          "raw_header_rows": {
+            "1": {
+              "A1": "Description"
+            },
+            "2": {
+              "A2": "This Excel file contains the results of single- and dual-agent DDRi CRISPRi v2 screens:"
+            },
+            "3": {
+              "A3": "Sheet 1: Gene-level phenotypes - Phenotype scores, p-values, and hit/non-hit labels."
+            }
+          },
+          "xml_row_records": 4,
+          "nonempty_row_records": 4,
+          "max_row": 4,
+          "max_column": 1,
+          "cell_count": 4,
+          "nonempty_cells": 4,
+          "cell_type_counts": {
+            "s": 4
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [
+            {
+              "excel_row": 1,
+              "cells": {
+                "A1": "Description"
+              }
+            },
+            {
+              "excel_row": 2,
+              "cells": {
+                "A2": "This Excel file contains the results of single- and dual-agent DDRi CRISPRi v2 screens:"
+              }
+            },
+            {
+              "excel_row": 3,
+              "cells": {
+                "A3": "Sheet 1: Gene-level phenotypes - Phenotype scores, p-values, and hit/non-hit labels."
+              }
+            },
+            {
+              "excel_row": 4,
+              "cells": {
+                "A4": "Sheet 2: GO GSEA analysis - Enrichment scores and p-values."
+              }
+            }
+          ],
+          "observed_cell_rectangle": "A1:A4",
+          "data_start_row": null,
+          "data_row_count": null,
+          "assessment": "resource_schema"
+        },
+        {
+          "name": "Gene Level Phenotypes",
+          "sheet_id": "1",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet2.xml",
+          "declared_dimension": "A1:CC37371",
+          "merged_ranges": [
+            "B1:I1",
+            "BF1:BM1",
+            "AP1:AW1",
+            "R1:Y1",
+            "Z1:AG1",
+            "BV1:CC1",
+            "J1:Q1",
+            "AX1:BE1",
+            "AH1:AO1",
+            "BN1:BU1"
+          ],
+          "raw_header_rows": {
+            "1": {
+              "B1": "gamma:DMSO_vs_T0",
+              "J1": "rho:PARPi_vs_DMSO",
+              "R1": "rho:ATRi_vs_DMSO",
+              "Z1": "rho:PARPi+ATRi_vs_DMSO",
+              "AH1": "rho:ATMi_vs_DMSO",
+              "AP1": "rho:PARPi+ATMi_vs_DMSO",
+              "AX1": "rho:WEE1i_vs_DMSO",
+              "BF1": "rho:PARPi+WEE1i_vs_DMSO",
+              "BN1": "rho:DNAPKi_vs_DMSO",
+              "BV1": "rho:PARPi+DNAPKi_vs_DMSO"
+            },
+            "2": {
+              "B2": "target",
+              "C2": "transcript",
+              "D2": "score",
+              "E2": "ttest pvalue",
+              "F2": "BH adj_pvalue",
+              "G2": "number_of_guide_elements",
+              "H2": "combined_score",
+              "I2": "label",
+              "J2": "target",
+              "K2": "transcript",
+              "L2": "score",
+              "M2": "ttest pvalue",
+              "N2": "BH adj_pvalue",
+              "O2": "number_of_guide_elements",
+              "P2": "combined_score",
+              "Q2": "label",
+              "R2": "target",
+              "S2": "transcript",
+              "T2": "score",
+              "U2": "ttest pvalue",
+              "V2": "BH adj_pvalue",
+              "W2": "number_of_guide_elements",
+              "X2": "combined_score",
+              "Y2": "label",
+              "Z2": "target",
+              "AA2": "transcript",
+              "AB2": "score",
+              "AC2": "ttest pvalue",
+              "AD2": "BH adj_pvalue",
+              "AE2": "number_of_guide_elements",
+              "AF2": "combined_score",
+              "AG2": "label",
+              "AH2": "target",
+              "AI2": "transcript",
+              "AJ2": "score",
+              "AK2": "ttest pvalue",
+              "AL2": "BH adj_pvalue",
+              "AM2": "number_of_guide_elements",
+              "AN2": "combined_score",
+              "AO2": "label",
+              "AP2": "target",
+              "AQ2": "transcript",
+              "AR2": "score",
+              "AS2": "ttest pvalue",
+              "AT2": "BH adj_pvalue",
+              "AU2": "number_of_guide_elements",
+              "AV2": "combined_score",
+              "AW2": "label",
+              "AX2": "target",
+              "AY2": "transcript",
+              "AZ2": "score",
+              "BA2": "ttest pvalue",
+              "BB2": "BH adj_pvalue",
+              "BC2": "number_of_guide_elements",
+              "BD2": "combined_score",
+              "BE2": "label",
+              "BF2": "target",
+              "BG2": "transcript",
+              "BH2": "score",
+              "BI2": "ttest pvalue",
+              "BJ2": "BH adj_pvalue",
+              "BK2": "number_of_guide_elements",
+              "BL2": "combined_score",
+              "BM2": "label",
+              "BN2": "target",
+              "BO2": "transcript",
+              "BP2": "score",
+              "BQ2": "ttest pvalue",
+              "BR2": "BH adj_pvalue",
+              "BS2": "number_of_guide_elements",
+              "BT2": "combined_score",
+              "BU2": "label",
+              "BV2": "target",
+              "BW2": "transcript",
+              "BX2": "score",
+              "BY2": "ttest pvalue",
+              "BZ2": "BH adj_pvalue",
+              "CA2": "number_of_guide_elements",
+              "CB2": "combined_score",
+              "CC2": "label"
+            }
+          },
+          "xml_row_records": 37370,
+          "nonempty_row_records": 37370,
+          "max_row": 37371,
+          "max_column": 81,
+          "cell_count": 3026970,
+          "nonempty_cells": 3026898,
+          "cell_type_counts": {
+            "numeric_or_blank": 1868472,
+            "s": 1158498
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [],
+          "observed_cell_rectangle": "A1:CC37371",
+          "data_start_row": 4,
+          "data_row_count": 37368,
+          "assessment": "resource_schema",
+          "column_mapping": [
+            {
+              "excel_column_number": 1,
+              "excel_column": "A",
+              "raw_row1": "",
+              "raw_row2": "",
+              "raw_row3": "",
+              "merged_group": "",
+              "output_field": "__original_index"
+            },
+            {
+              "excel_column_number": 2,
+              "excel_column": "B",
+              "raw_row1": "gamma:DMSO_vs_T0",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|target"
+            },
+            {
+              "excel_column_number": 3,
+              "excel_column": "C",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|transcript"
+            },
+            {
+              "excel_column_number": 4,
+              "excel_column": "D",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|score"
+            },
+            {
+              "excel_column_number": 5,
+              "excel_column": "E",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|ttest pvalue"
+            },
+            {
+              "excel_column_number": 6,
+              "excel_column": "F",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 7,
+              "excel_column": "G",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 8,
+              "excel_column": "H",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|combined_score"
+            },
+            {
+              "excel_column_number": 9,
+              "excel_column": "I",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "gamma:DMSO_vs_T0",
+              "output_field": "gamma:DMSO_vs_T0|label"
+            },
+            {
+              "excel_column_number": 10,
+              "excel_column": "J",
+              "raw_row1": "rho:PARPi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 11,
+              "excel_column": "K",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 12,
+              "excel_column": "L",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 13,
+              "excel_column": "M",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 14,
+              "excel_column": "N",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 15,
+              "excel_column": "O",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 16,
+              "excel_column": "P",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 17,
+              "excel_column": "Q",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi_vs_DMSO",
+              "output_field": "rho:PARPi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 18,
+              "excel_column": "R",
+              "raw_row1": "rho:ATRi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 19,
+              "excel_column": "S",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 20,
+              "excel_column": "T",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 21,
+              "excel_column": "U",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 22,
+              "excel_column": "V",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 23,
+              "excel_column": "W",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 24,
+              "excel_column": "X",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 25,
+              "excel_column": "Y",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:ATRi_vs_DMSO",
+              "output_field": "rho:ATRi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 26,
+              "excel_column": "Z",
+              "raw_row1": "rho:PARPi+ATRi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 27,
+              "excel_column": "AA",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 28,
+              "excel_column": "AB",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 29,
+              "excel_column": "AC",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 30,
+              "excel_column": "AD",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 31,
+              "excel_column": "AE",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 32,
+              "excel_column": "AF",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 33,
+              "excel_column": "AG",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATRi_vs_DMSO",
+              "output_field": "rho:PARPi+ATRi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 34,
+              "excel_column": "AH",
+              "raw_row1": "rho:ATMi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 35,
+              "excel_column": "AI",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 36,
+              "excel_column": "AJ",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 37,
+              "excel_column": "AK",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 38,
+              "excel_column": "AL",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 39,
+              "excel_column": "AM",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 40,
+              "excel_column": "AN",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 41,
+              "excel_column": "AO",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:ATMi_vs_DMSO",
+              "output_field": "rho:ATMi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 42,
+              "excel_column": "AP",
+              "raw_row1": "rho:PARPi+ATMi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 43,
+              "excel_column": "AQ",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 44,
+              "excel_column": "AR",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 45,
+              "excel_column": "AS",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 46,
+              "excel_column": "AT",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 47,
+              "excel_column": "AU",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 48,
+              "excel_column": "AV",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 49,
+              "excel_column": "AW",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+ATMi_vs_DMSO",
+              "output_field": "rho:PARPi+ATMi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 50,
+              "excel_column": "AX",
+              "raw_row1": "rho:WEE1i_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 51,
+              "excel_column": "AY",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 52,
+              "excel_column": "AZ",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 53,
+              "excel_column": "BA",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 54,
+              "excel_column": "BB",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 55,
+              "excel_column": "BC",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 56,
+              "excel_column": "BD",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 57,
+              "excel_column": "BE",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:WEE1i_vs_DMSO",
+              "output_field": "rho:WEE1i_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 58,
+              "excel_column": "BF",
+              "raw_row1": "rho:PARPi+WEE1i_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 59,
+              "excel_column": "BG",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 60,
+              "excel_column": "BH",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 61,
+              "excel_column": "BI",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 62,
+              "excel_column": "BJ",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 63,
+              "excel_column": "BK",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 64,
+              "excel_column": "BL",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 65,
+              "excel_column": "BM",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+WEE1i_vs_DMSO",
+              "output_field": "rho:PARPi+WEE1i_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 66,
+              "excel_column": "BN",
+              "raw_row1": "rho:DNAPKi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 67,
+              "excel_column": "BO",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 68,
+              "excel_column": "BP",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 69,
+              "excel_column": "BQ",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 70,
+              "excel_column": "BR",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 71,
+              "excel_column": "BS",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 72,
+              "excel_column": "BT",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 73,
+              "excel_column": "BU",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:DNAPKi_vs_DMSO",
+              "output_field": "rho:DNAPKi_vs_DMSO|label"
+            },
+            {
+              "excel_column_number": 74,
+              "excel_column": "BV",
+              "raw_row1": "rho:PARPi+DNAPKi_vs_DMSO",
+              "raw_row2": "target",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|target"
+            },
+            {
+              "excel_column_number": 75,
+              "excel_column": "BW",
+              "raw_row1": "",
+              "raw_row2": "transcript",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|transcript"
+            },
+            {
+              "excel_column_number": 76,
+              "excel_column": "BX",
+              "raw_row1": "",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|score"
+            },
+            {
+              "excel_column_number": 77,
+              "excel_column": "BY",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|ttest pvalue"
+            },
+            {
+              "excel_column_number": 78,
+              "excel_column": "BZ",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 79,
+              "excel_column": "CA",
+              "raw_row1": "",
+              "raw_row2": "number_of_guide_elements",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|number_of_guide_elements"
+            },
+            {
+              "excel_column_number": 80,
+              "excel_column": "CB",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|combined_score"
+            },
+            {
+              "excel_column_number": 81,
+              "excel_column": "CC",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "rho:PARPi+DNAPKi_vs_DMSO",
+              "output_field": "rho:PARPi+DNAPKi_vs_DMSO|label"
+            }
+          ],
+          "extraction": {
+            "path": "[LOCAL_PATH]/R2_phenotypes.csv",
+            "data_rows": 37368,
+            "columns_including_excel_row": 82,
+            "sha256": "8b653d829adec8d975697a70e48bf5d1ac70cb9534ac3cd7ad4da9b4f504fcdf",
+            "all_cells_csv_roundtrip_lexical_digest": "f8b5b8835f21570a426092d8c1b57f7330ad77c39b5a568349e1c44827af719e",
+            "all_cells_csv_roundtrip_verified": true
+          }
+        },
+        {
+          "name": "GO GSEA Analysis",
+          "sheet_id": "2",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet3.xml",
+          "declared_dimension": "A1:BL3382",
+          "merged_ranges": [
+            "AR1:AX1",
+            "I1:O1",
+            "B1:H1",
+            "AY1:BE1",
+            "BF1:BL1",
+            "AD1:AJ1",
+            "P1:V1",
+            "AK1:AQ1",
+            "W1:AC1"
+          ],
+          "raw_header_rows": {
+            "1": {
+              "B1": "rho:PARPi_vs_DMSO",
+              "I1": "rho:ATRi_vs_DMSO",
+              "P1": "rho:PARPi+ATRi_vs_DMSO",
+              "W1": "rho:ATMi_vs_DMSO",
+              "AD1": "rho:PARPi+ATMi_vs_DMSO",
+              "AK1": "rho:WEE1i_vs_DMSO",
+              "AR1": "rho:PARPi+WEE1i_vs_DMSO",
+              "AY1": "rho:DNAPKi_vs_DMSO",
+              "BF1": "rho:PARPi+DNAPKi_vs_DMSO"
+            },
+            "2": {
+              "B2": "es",
+              "C2": "nes",
+              "D2": "pval",
+              "E2": "sidak",
+              "F2": "fdr",
+              "G2": "geneset_size",
+              "H2": "leading_edge",
+              "I2": "es",
+              "J2": "nes",
+              "K2": "pval",
+              "L2": "sidak",
+              "M2": "fdr",
+              "N2": "geneset_size",
+              "O2": "leading_edge",
+              "P2": "es",
+              "Q2": "nes",
+              "R2": "pval",
+              "S2": "sidak",
+              "T2": "fdr",
+              "U2": "geneset_size",
+              "V2": "leading_edge",
+              "W2": "es",
+              "X2": "nes",
+              "Y2": "pval",
+              "Z2": "sidak",
+              "AA2": "fdr",
+              "AB2": "geneset_size",
+              "AC2": "leading_edge",
+              "AD2": "es",
+              "AE2": "nes",
+              "AF2": "pval",
+              "AG2": "sidak",
+              "AH2": "fdr",
+              "AI2": "geneset_size",
+              "AJ2": "leading_edge",
+              "AK2": "es",
+              "AL2": "nes",
+              "AM2": "pval",
+              "AN2": "sidak",
+              "AO2": "fdr",
+              "AP2": "geneset_size",
+              "AQ2": "leading_edge",
+              "AR2": "es",
+              "AS2": "nes",
+              "AT2": "pval",
+              "AU2": "sidak",
+              "AV2": "fdr",
+              "AW2": "geneset_size",
+              "AX2": "leading_edge",
+              "AY2": "es",
+              "AZ2": "nes",
+              "BA2": "pval",
+              "BB2": "sidak",
+              "BC2": "fdr",
+              "BD2": "geneset_size",
+              "BE2": "leading_edge",
+              "BF2": "es",
+              "BG2": "nes",
+              "BH2": "pval",
+              "BI2": "sidak",
+              "BJ2": "fdr",
+              "BK2": "geneset_size",
+              "BL2": "leading_edge"
+            },
+            "3": {
+              "A3": "Term"
+            }
+          },
+          "xml_row_records": 3382,
+          "nonempty_row_records": 3382,
+          "max_row": 3382,
+          "max_column": 64,
+          "cell_count": 216278,
+          "nonempty_cells": 216222,
+          "cell_type_counts": {
+            "numeric_or_blank": 182522,
+            "s": 33756
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [],
+          "observed_cell_rectangle": "A1:BL3382",
+          "data_start_row": 4,
+          "data_row_count": 3379,
+          "assessment": "structure_only_no_enrichment_or_ranking_assessment"
+        }
+      ],
+      "relationships": [
+        {
+          "part": "_rels/.rels",
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml"
+        },
+        {
+          "part": "_rels/.rels",
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml"
+        },
+        {
+          "part": "_rels/.rels",
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "xl/workbook.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet3.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet2.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet1.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings",
+          "Target": "sharedStrings.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml"
+        }
+      ],
+      "external_relationships": [],
+      "notices": [
+        "GO GSEA Analysis sheet parsed for structure only; no enrichment values or ranks assessed or exported.",
+        "Workbook absPath records an author save location; it is not an external relationship or required score dependency.",
+        "Excel column A is an unnamed original row key; each contrast has its own target and transcript columns, which are preserved separately.",
+        "Header row3 is absent from sheet XML. Data start at row4. Missing/blank cells remain empty strings."
+      ],
+      "zip_integrity_bad_member": null,
+      "zip_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/worksheets/sheet2.xml",
+        "xl/worksheets/sheet3.xml",
+        "xl/theme/theme1.xml",
+        "xl/styles.xml",
+        "xl/sharedStrings.xml",
+        "docProps/core.xml",
+        "docProps/app.xml"
+      ],
+      "shared_strings_count": 71500,
+      "potential_object_dependency_parts": [],
+      "workbook_defined_names": [],
+      "workbook_absolute_path_notices": [
+        {
+          "url": "https://mtsinai-my.sharepoint.com/personal/thomas_oloughlin_mssm_edu/Documents/Projects/PRDX1/Manuscript/NatChemBio_SubmissionDocs/Revisions/Revision#2/SuppTables/"
+        }
+      ],
+      "dependency_assessment": "No external relationships or object-dependency parts found; extracted scores are stored as values."
+    },
+    {
+      "resource_id": "R3",
+      "filename": "DDRi_Dataset3_v3.xlsx",
+      "bytes": 9732112,
+      "sha256": "1a6dc8dfdd36b7b9fedb2cc4f878e7ec362845c6a4c714fb61f6e5f9f6edd7fc",
+      "numeric_extraction": "literal OOXML <v> strings; no float conversion or rounding",
+      "sheets": [
+        {
+          "name": "Readme",
+          "sheet_id": "3",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet1.xml",
+          "declared_dimension": "A1:A4",
+          "merged_ranges": [],
+          "raw_header_rows": {
+            "1": {
+              "A1": "Description"
+            },
+            "2": {
+              "A2": "This Excel file contains the results of parental and PRDX1 KO \u00b1 DNAPKi CRISPRi v3 screens:"
+            },
+            "3": {
+              "A3": "Sheet 1: Gene-level phenotypes - Phenotype scores, p-values, and hit/non-hit labels."
+            }
+          },
+          "xml_row_records": 4,
+          "nonempty_row_records": 4,
+          "max_row": 4,
+          "max_column": 1,
+          "cell_count": 4,
+          "nonempty_cells": 4,
+          "cell_type_counts": {
+            "s": 4
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [
+            {
+              "excel_row": 1,
+              "cells": {
+                "A1": "Description"
+              }
+            },
+            {
+              "excel_row": 2,
+              "cells": {
+                "A2": "This Excel file contains the results of parental and PRDX1 KO \u00b1 DNAPKi CRISPRi v3 screens:"
+              }
+            },
+            {
+              "excel_row": 3,
+              "cells": {
+                "A3": "Sheet 1: Gene-level phenotypes - Phenotype scores, p-values, and hit/non-hit labels."
+              }
+            },
+            {
+              "excel_row": 4,
+              "cells": {
+                "A4": "Sheet 2: GO GSEA analysis - Enrichment scores and p-values."
+              }
+            }
+          ],
+          "observed_cell_rectangle": "A1:A4",
+          "data_start_row": null,
+          "data_row_count": null,
+          "assessment": "resource_schema"
+        },
+        {
+          "name": "Gene Level Phenotypes",
+          "sheet_id": "1",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet2.xml",
+          "declared_dimension": "A1:AG20454",
+          "merged_ranges": [
+            "X1:AB1",
+            "D1:H1",
+            "AC1:AG1",
+            "S1:W1",
+            "I1:M1",
+            "N1:R1"
+          ],
+          "raw_header_rows": {
+            "1": {
+              "D1": "PRDX1KO::gamma:vehicle_vs_T0",
+              "I1": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "N1": "parent::gamma:vehicle_vs_T0",
+              "S1": "parent::rho:DNAPKi_vs_vehicle",
+              "X1": "vehicle::gamma:parent_vs_T0",
+              "AC1": "vehicle::rho:PRDX1KO_vs_parent"
+            },
+            "2": {
+              "D2": "score",
+              "E2": "ttest pvalue",
+              "F2": "BH adj_pvalue",
+              "G2": "combined_score",
+              "H2": "label",
+              "I2": "score",
+              "J2": "ttest pvalue",
+              "K2": "BH adj_pvalue",
+              "L2": "combined_score",
+              "M2": "label",
+              "N2": "score",
+              "O2": "ttest pvalue",
+              "P2": "BH adj_pvalue",
+              "Q2": "combined_score",
+              "R2": "label",
+              "S2": "score",
+              "T2": "ttest pvalue",
+              "U2": "BH adj_pvalue",
+              "V2": "combined_score",
+              "W2": "label",
+              "X2": "score",
+              "Y2": "ttest pvalue",
+              "Z2": "BH adj_pvalue",
+              "AA2": "combined_score",
+              "AB2": "label",
+              "AC2": "score",
+              "AD2": "ttest pvalue",
+              "AE2": "BH adj_pvalue",
+              "AF2": "combined_score",
+              "AG2": "label"
+            },
+            "3": {
+              "A3": "sgID_AB",
+              "B3": "target",
+              "C3": "transcript"
+            }
+          },
+          "xml_row_records": 20454,
+          "nonempty_row_records": 20454,
+          "max_row": 20454,
+          "max_column": 33,
+          "cell_count": 664628,
+          "nonempty_cells": 664602,
+          "cell_type_counts": {
+            "numeric_or_blank": 482594,
+            "s": 182034
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [],
+          "observed_cell_rectangle": "A1:AG20454",
+          "data_start_row": 4,
+          "data_row_count": 20451,
+          "assessment": "resource_schema",
+          "column_mapping": [
+            {
+              "excel_column_number": 1,
+              "excel_column": "A",
+              "raw_row1": "",
+              "raw_row2": "",
+              "raw_row3": "sgID_AB",
+              "merged_group": "",
+              "output_field": "sgID_AB"
+            },
+            {
+              "excel_column_number": 2,
+              "excel_column": "B",
+              "raw_row1": "",
+              "raw_row2": "",
+              "raw_row3": "target",
+              "merged_group": "",
+              "output_field": "target"
+            },
+            {
+              "excel_column_number": 3,
+              "excel_column": "C",
+              "raw_row1": "",
+              "raw_row2": "",
+              "raw_row3": "transcript",
+              "merged_group": "",
+              "output_field": "transcript"
+            },
+            {
+              "excel_column_number": 4,
+              "excel_column": "D",
+              "raw_row1": "PRDX1KO::gamma:vehicle_vs_T0",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::gamma:vehicle_vs_T0",
+              "output_field": "PRDX1KO::gamma:vehicle_vs_T0|score"
+            },
+            {
+              "excel_column_number": 5,
+              "excel_column": "E",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::gamma:vehicle_vs_T0",
+              "output_field": "PRDX1KO::gamma:vehicle_vs_T0|ttest pvalue"
+            },
+            {
+              "excel_column_number": 6,
+              "excel_column": "F",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::gamma:vehicle_vs_T0",
+              "output_field": "PRDX1KO::gamma:vehicle_vs_T0|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 7,
+              "excel_column": "G",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::gamma:vehicle_vs_T0",
+              "output_field": "PRDX1KO::gamma:vehicle_vs_T0|combined_score"
+            },
+            {
+              "excel_column_number": 8,
+              "excel_column": "H",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::gamma:vehicle_vs_T0",
+              "output_field": "PRDX1KO::gamma:vehicle_vs_T0|label"
+            },
+            {
+              "excel_column_number": 9,
+              "excel_column": "I",
+              "raw_row1": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "output_field": "PRDX1KO::rho:DNAPKi_vs_vehicle|score"
+            },
+            {
+              "excel_column_number": 10,
+              "excel_column": "J",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "output_field": "PRDX1KO::rho:DNAPKi_vs_vehicle|ttest pvalue"
+            },
+            {
+              "excel_column_number": 11,
+              "excel_column": "K",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "output_field": "PRDX1KO::rho:DNAPKi_vs_vehicle|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 12,
+              "excel_column": "L",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "output_field": "PRDX1KO::rho:DNAPKi_vs_vehicle|combined_score"
+            },
+            {
+              "excel_column_number": 13,
+              "excel_column": "M",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "output_field": "PRDX1KO::rho:DNAPKi_vs_vehicle|label"
+            },
+            {
+              "excel_column_number": 14,
+              "excel_column": "N",
+              "raw_row1": "parent::gamma:vehicle_vs_T0",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "parent::gamma:vehicle_vs_T0",
+              "output_field": "parent::gamma:vehicle_vs_T0|score"
+            },
+            {
+              "excel_column_number": 15,
+              "excel_column": "O",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "parent::gamma:vehicle_vs_T0",
+              "output_field": "parent::gamma:vehicle_vs_T0|ttest pvalue"
+            },
+            {
+              "excel_column_number": 16,
+              "excel_column": "P",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "parent::gamma:vehicle_vs_T0",
+              "output_field": "parent::gamma:vehicle_vs_T0|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 17,
+              "excel_column": "Q",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "parent::gamma:vehicle_vs_T0",
+              "output_field": "parent::gamma:vehicle_vs_T0|combined_score"
+            },
+            {
+              "excel_column_number": 18,
+              "excel_column": "R",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "parent::gamma:vehicle_vs_T0",
+              "output_field": "parent::gamma:vehicle_vs_T0|label"
+            },
+            {
+              "excel_column_number": 19,
+              "excel_column": "S",
+              "raw_row1": "parent::rho:DNAPKi_vs_vehicle",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "parent::rho:DNAPKi_vs_vehicle",
+              "output_field": "parent::rho:DNAPKi_vs_vehicle|score"
+            },
+            {
+              "excel_column_number": 20,
+              "excel_column": "T",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "parent::rho:DNAPKi_vs_vehicle",
+              "output_field": "parent::rho:DNAPKi_vs_vehicle|ttest pvalue"
+            },
+            {
+              "excel_column_number": 21,
+              "excel_column": "U",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "parent::rho:DNAPKi_vs_vehicle",
+              "output_field": "parent::rho:DNAPKi_vs_vehicle|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 22,
+              "excel_column": "V",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "parent::rho:DNAPKi_vs_vehicle",
+              "output_field": "parent::rho:DNAPKi_vs_vehicle|combined_score"
+            },
+            {
+              "excel_column_number": 23,
+              "excel_column": "W",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "parent::rho:DNAPKi_vs_vehicle",
+              "output_field": "parent::rho:DNAPKi_vs_vehicle|label"
+            },
+            {
+              "excel_column_number": 24,
+              "excel_column": "X",
+              "raw_row1": "vehicle::gamma:parent_vs_T0",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "vehicle::gamma:parent_vs_T0",
+              "output_field": "vehicle::gamma:parent_vs_T0|score"
+            },
+            {
+              "excel_column_number": 25,
+              "excel_column": "Y",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "vehicle::gamma:parent_vs_T0",
+              "output_field": "vehicle::gamma:parent_vs_T0|ttest pvalue"
+            },
+            {
+              "excel_column_number": 26,
+              "excel_column": "Z",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "vehicle::gamma:parent_vs_T0",
+              "output_field": "vehicle::gamma:parent_vs_T0|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 27,
+              "excel_column": "AA",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "vehicle::gamma:parent_vs_T0",
+              "output_field": "vehicle::gamma:parent_vs_T0|combined_score"
+            },
+            {
+              "excel_column_number": 28,
+              "excel_column": "AB",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "vehicle::gamma:parent_vs_T0",
+              "output_field": "vehicle::gamma:parent_vs_T0|label"
+            },
+            {
+              "excel_column_number": 29,
+              "excel_column": "AC",
+              "raw_row1": "vehicle::rho:PRDX1KO_vs_parent",
+              "raw_row2": "score",
+              "raw_row3": "",
+              "merged_group": "vehicle::rho:PRDX1KO_vs_parent",
+              "output_field": "vehicle::rho:PRDX1KO_vs_parent|score"
+            },
+            {
+              "excel_column_number": 30,
+              "excel_column": "AD",
+              "raw_row1": "",
+              "raw_row2": "ttest pvalue",
+              "raw_row3": "",
+              "merged_group": "vehicle::rho:PRDX1KO_vs_parent",
+              "output_field": "vehicle::rho:PRDX1KO_vs_parent|ttest pvalue"
+            },
+            {
+              "excel_column_number": 31,
+              "excel_column": "AE",
+              "raw_row1": "",
+              "raw_row2": "BH adj_pvalue",
+              "raw_row3": "",
+              "merged_group": "vehicle::rho:PRDX1KO_vs_parent",
+              "output_field": "vehicle::rho:PRDX1KO_vs_parent|BH adj_pvalue"
+            },
+            {
+              "excel_column_number": 32,
+              "excel_column": "AF",
+              "raw_row1": "",
+              "raw_row2": "combined_score",
+              "raw_row3": "",
+              "merged_group": "vehicle::rho:PRDX1KO_vs_parent",
+              "output_field": "vehicle::rho:PRDX1KO_vs_parent|combined_score"
+            },
+            {
+              "excel_column_number": 33,
+              "excel_column": "AG",
+              "raw_row1": "",
+              "raw_row2": "label",
+              "raw_row3": "",
+              "merged_group": "vehicle::rho:PRDX1KO_vs_parent",
+              "output_field": "vehicle::rho:PRDX1KO_vs_parent|label"
+            }
+          ],
+          "extraction": {
+            "path": "[LOCAL_PATH]/R3_phenotypes.csv",
+            "data_rows": 20451,
+            "columns_including_excel_row": 34,
+            "sha256": "e7a2f95517936cc307d04b144c24ad565e0688dcaa83c979177449231a637910",
+            "all_cells_csv_roundtrip_lexical_digest": "c04f186ff245fed769b8f2ffc73d2feac438a4cc70b802a169c2f9e960a0ee73",
+            "all_cells_csv_roundtrip_verified": true
+          }
+        },
+        {
+          "name": "GO GSEA Analysis",
+          "sheet_id": "2",
+          "visibility": "visible",
+          "part": "xl/worksheets/sheet3.xml",
+          "declared_dimension": "A1:V3344",
+          "merged_ranges": [
+            "B1:H1",
+            "P1:V1",
+            "I1:O1"
+          ],
+          "raw_header_rows": {
+            "1": {
+              "B1": "PRDX1KO::rho:DNAPKi_vs_vehicle",
+              "I1": "parent::rho:DNAPKi_vs_vehicle",
+              "P1": "vehicle::rho:PRDX1KO_vs_parent"
+            },
+            "2": {
+              "B2": "es",
+              "C2": "nes",
+              "D2": "pval",
+              "E2": "sidak",
+              "F2": "fdr",
+              "G2": "geneset_size",
+              "H2": "leading_edge",
+              "I2": "es",
+              "J2": "nes",
+              "K2": "pval",
+              "L2": "sidak",
+              "M2": "fdr",
+              "N2": "geneset_size",
+              "O2": "leading_edge",
+              "P2": "es",
+              "Q2": "nes",
+              "R2": "pval",
+              "S2": "sidak",
+              "T2": "fdr",
+              "U2": "geneset_size",
+              "V2": "leading_edge"
+            },
+            "3": {
+              "A3": "Term"
+            }
+          },
+          "xml_row_records": 3344,
+          "nonempty_row_records": 3344,
+          "max_row": 3344,
+          "max_column": 22,
+          "cell_count": 72501,
+          "nonempty_cells": 72481,
+          "cell_type_counts": {
+            "numeric_or_blank": 59384,
+            "s": 13117
+          },
+          "formula_cells": [],
+          "error_cells": [],
+          "hidden_row_numbers": [],
+          "hidden_column_ranges": [],
+          "sheet_dependency_elements": [],
+          "readme_text": [],
+          "observed_cell_rectangle": "A1:V3344",
+          "data_start_row": 4,
+          "data_row_count": 3341,
+          "assessment": "structure_only_no_enrichment_or_ranking_assessment"
+        }
+      ],
+      "relationships": [
+        {
+          "part": "_rels/.rels",
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml"
+        },
+        {
+          "part": "_rels/.rels",
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml"
+        },
+        {
+          "part": "_rels/.rels",
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "xl/workbook.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet3.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet2.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+          "Target": "worksheets/sheet1.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings",
+          "Target": "sharedStrings.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml"
+        },
+        {
+          "part": "xl/_rels/workbook.xml.rels",
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml"
+        }
+      ],
+      "external_relationships": [],
+      "notices": [
+        "GO GSEA Analysis sheet parsed for structure only; no enrichment values or ranks assessed or exported.",
+        "Workbook absPath records an author save location; it is not an external relationship or required score dependency.",
+        "Identifier headers sgID_AB,target,transcript are on row3. All WT/parent and PRDX1KO contrast groups remain separate."
+      ],
+      "zip_integrity_bad_member": null,
+      "zip_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/worksheets/sheet2.xml",
+        "xl/worksheets/sheet3.xml",
+        "xl/theme/theme1.xml",
+        "xl/styles.xml",
+        "xl/sharedStrings.xml",
+        "docProps/core.xml",
+        "docProps/app.xml"
+      ],
+      "shared_strings_count": 52416,
+      "potential_object_dependency_parts": [],
+      "workbook_defined_names": [],
+      "workbook_absolute_path_notices": [
+        {
+          "url": "https://mtsinai-my.sharepoint.com/personal/thomas_oloughlin_mssm_edu/Documents/Projects/PRDX1/Manuscript/NatChemBio_SubmissionDocs/Revisions/Revision#2/SuppTables/"
+        }
+      ],
+      "dependency_assessment": "No external relationships or object-dependency parts found; extracted scores are stored as values."
+    }
+  ],
+  "field_semantics": {
+    "target": "Published perturbed gene string; exact identity join only; negative_control excluded from gene counts.",
+    "transcript": "Published library-local transcript/TSS label. R2 varies by contrast. Equal labels across libraries do not verify genomic TSS identity.",
+    "sgID_AB": "R3 original ordered dual-guide identifier; retain for duplicate target/transcript keys. ID text, not a sequence.",
+    "__original_index": "Added name for R2 original unnamed column A, including pseudocontrol IDs.",
+    "score": "Unaltered published phenotype; use the explicitly named rho or gamma group, not combined_score.",
+    "ttest pvalue": "Published t-test P value; no new test computed.",
+    "BH adj_pvalue": "Actual published BH-adjusted P value; present in both workbooks, not invented.",
+    "number_of_guide_elements": "R2 per-row per-contrast count of guide elements; not replicate count.",
+    "combined_score": "Publisher auxiliary composite, retained unchanged; not used instead of rho/gamma score.",
+    "label": "Original non-hit, sensitivity/resistance, gamma fitness, or negative_control class. Blank stays blank.",
+    "rho": "Drug endpoint relative to matched vehicle, except explicitly excluded R3 vehicle::rho:PRDX1KO_vs_parent, which is a genotype contrast.",
+    "gamma": "Vehicle endpoint relative to T0 in the specified background.",
+    "tau": "Treated endpoint relative to T0; not the requested contrast and not substituted.",
+    "normalization": "R2 not growth normalized; R3 growth normalized. GEMINI, rho and gamma are not numerically interchangeable."
+  },
+  "chosen_endpoints": {
+    "R2_core": "rho:DNAPKi_vs_DMSO|score",
+    "R2_drug_free": "gamma:DMSO_vs_T0|score",
+    "R2_specificity": [
+      "rho:ATMi_vs_DMSO|score",
+      "rho:ATRi_vs_DMSO|score",
+      "rho:WEE1i_vs_DMSO|score"
+    ],
+    "R3_core": "parent::rho:DNAPKi_vs_vehicle|score",
+    "R3_drug_free": "parent::gamma:vehicle_vs_T0|score",
+    "excluded": {
+      "R2": [
+        "rho:PARPi_vs_DMSO",
+        "rho:PARPi+ATRi_vs_DMSO",
+        "rho:PARPi+ATMi_vs_DMSO",
+        "rho:PARPi+WEE1i_vs_DMSO",
+        "rho:PARPi+DNAPKi_vs_DMSO"
+      ],
+      "R3": [
+        "PRDX1KO::gamma:vehicle_vs_T0",
+        "PRDX1KO::rho:DNAPKi_vs_vehicle",
+        "vehicle::gamma:parent_vs_T0",
+        "vehicle::rho:PRDX1KO_vs_parent"
+      ]
+    },
+    "R3_alternative_gamma": "vehicle::gamma:parent_vs_T0 retained in raw/profiles; different published object and missingness, never used to fill parent::gamma blanks."
+  },
+  "linked_score_panel": {
+    "grain": "One R1 PRKDC source row x one destination endpoint x one original destination record, plus explicit unmatched placeholders.",
+    "source_fields": "gene_combination, sens.score and rank keep original names and exact strings.",
+    "destination_fields": "Original second-level headers keep original names. condition stores exact first-level group. Raw Excel row and sgID_AB/original index identify each source record.",
+    "conversion": "CSV fields preserve literal numeric OOXML <v> strings. No score rounding, normalization, averaging or favorable selection.",
+    "nulls": "Blank score + destination_score_status distinguish missing published score from absent matched record. Never zero-fill.",
+    "excluded_objects": "No KO, PARPi or PARPi combination endpoints in linked panel; complete source workbooks remain intact.",
+    "replicates": "Published aggregate scores only. No fabricated replicate-level values.",
+    "expansion": "R1-to-R3 one-to-many retained. Different endpoint groups are long rows, not a Cartesian product or independent samples."
+  },
+  "qualified_support": {
+    "grain": "One original PRKDC pair/partner, all 547 retained.",
+    "finite_support": "At least one finite original record for every specified endpoint; no choice among multiple records.",
+    "same_target_transcript": "Within-library equality of published labels only, not verified guide-set identity.",
+    "eligibility": "Coverage flags inform a later scientific lock; not biological success labels or a finalized inclusion protocol."
+  },
+  "gene_identity_and_attribution": {
+    "rule": "Exact case-sensitive published strings; no fuzzy matches, external gene databases or automatic aliases.",
+    "unmatched": "Preserved in crosswalk and support; reason unresolved, not assumed not-designed.",
+    "known_promoter_pairs": [
+      [
+        "ANKRD49",
+        "MRE11"
+      ],
+      [
+        "DZIP3",
+        "CIP2A"
+      ]
+    ],
+    "actual_exact_symbols_flagged": [
+      "ANKRD49",
+      "DZIP3"
+    ],
+    "named_partner_symbols_not_present": [
+      "MRE11",
+      "CIP2A"
+    ],
+    "limits": "No alias introduced to bridge absent promoter-pair names. No named flag on an exact symbol does not establish unambiguous biological attribution."
+  },
+  "hidden_required_objects": {
+    "formula_external_link_hidden_sheet_count": 0,
+    "bounded_join": "No external workbook, author-held weights, raw screen reprocessing, predictor or model required.",
+    "unavailable_not_backfilled": [
+      "R1/R2 constituent guide IDs and sequences",
+      "replicate-level scores",
+      "cross-library TSS-equivalence map",
+      "documented R2 per-condition transcript selection rule",
+      "raw factors for reconstructing scores"
+    ],
+    "scope_limit": "These absent objects prevent stronger claims or reconstruction; the supplied processed-score gene-symbol join does not require them."
+  },
+  "provenance": "provenance/methods_evidence.json; screen_metadata.csv; manifest.csv; SHA256SUMS"
+}

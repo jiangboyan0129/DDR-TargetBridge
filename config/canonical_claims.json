@@ -1,0 +1,7 @@
+{
+  "schema_version": "3.0",
+  "current_claim_ledger": "docs/SCIENTIFIC_CLAIM_LEDGER.json",
+  "numerical_anchors": "config/portfolio_facts.json",
+  "previous_editorial_registry": "provenance/legacy_config/canonical_claims_V2.json",
+  "note": "Current presentation changes no frozen scientific parameters or result values."
+}

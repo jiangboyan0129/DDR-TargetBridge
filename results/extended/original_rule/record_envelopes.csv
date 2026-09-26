@@ -1,0 +1,5 @@
+cohort,N,source_called_N,lower,median,upper,scope
+P380,380,12,0.5233242753623188,0.5235507246376812,0.5242300724637681,"observed-record resolution envelope, not CI; missing values unbounded"
+S1_P400,400,12,0.5137457044673539,0.5210481099656358,0.5313573883161512,"observed-record resolution envelope, not CI; missing values unbounded"
+S2_single_R3_record,378,12,0.5229963570127505,0.5229963570127505,0.5229963570127505,"observed-record resolution envelope, not CI; missing values unbounded"
+S3_no_missing_R3_records,380,12,0.5233242753623188,0.5235507246376812,0.5242300724637681,"observed-record resolution envelope, not CI; missing values unbounded"

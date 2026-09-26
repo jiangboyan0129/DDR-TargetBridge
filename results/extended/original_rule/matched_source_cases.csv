@@ -1,0 +1,49 @@
+cohort,gene,source_called,matching_available,comparator_N,control_genes,A_R2_within_case,A_R3_within_case
+P380,DCLRE1B,True,True,5,"[""HUWE1"", ""TFPT"", ""FANCC"", ""COPS8"", ""LIG3""]",0.2,0.2
+P380,DDX1,True,True,5,"[""GTF2H3"", ""ASCC3"", ""MEAF6"", ""TRRAP"", ""BARD1""]",0.4,0.6000000000000001
+P380,DOT1L,True,True,5,"[""ING3"", ""RIF1"", ""TOP3A"", ""WDR48"", ""C11orf30""]",1.0,0.2
+P380,FANCF,True,True,3,"[""RAD1"", ""ERCC1"", ""TRIP12""]",1.0,0.0
+P380,GTF2H5,True,True,5,"[""FZR1"", ""BLM"", ""C11orf30"", ""TOP3A"", ""RIF1""]",0.8,0.6000000000000001
+P380,MCM4,True,True,5,"[""POLR2L"", ""POLG2"", ""MEN1"", ""PPP4C"", ""UBE2D3""]",0.2,0.6000000000000001
+P380,RNF8,True,True,5,"[""UBE2D3"", ""NFRKB"", ""UCHL5"", ""FANCC"", ""MEN1""]",0.4,0.8
+P380,TRIP13,True,True,5,"[""POLG2"", ""NSMCE2"", ""MAD2L2"", ""UBE2D3"", ""CDC7""]",1.0,0.6000000000000001
+P380,UBE2N,True,True,5,"[""XRCC1"", ""WHSC1"", ""SLX4"", ""ASCC2"", ""NUDT16L1""]",0.4,0.2
+P380,UBE2V2,True,True,5,"[""SUMO1"", ""MUM1"", ""INO80E"", ""RAD50"", ""RAD1""]",0.2,0.4
+P380,UBR5,True,True,5,"[""OBFC1"", ""SMARCAL1"", ""PIF1"", ""UBC"", ""SWSAP1""]",1.0,1.0
+P380,UHRF1,True,True,5,"[""FANCC"", ""UBE2B"", ""NFRKB"", ""UBE2D3"", ""GTF2H3""]",0.6000000000000001,0.6000000000000001
+S1_P400,DCLRE1B,True,True,5,"[""HUWE1"", ""TFPT"", ""FANCC"", ""COPS8"", ""LIG3""]",0.2,0.2
+S1_P400,DDX1,True,True,5,"[""GTF2H3"", ""ASCC3"", ""MEAF6"", ""TRRAP"", ""BARD1""]",0.4,0.6000000000000001
+S1_P400,DOT1L,True,True,5,"[""ING3"", ""RIF1"", ""TOP3A"", ""WDR48"", ""C11orf30""]",1.0,0.2
+S1_P400,FANCF,True,True,3,"[""RAD1"", ""ERCC1"", ""TRIP12""]",1.0,0.0
+S1_P400,GTF2H5,True,True,5,"[""BLM"", ""FZR1"", ""C11orf30"", ""TOP3A"", ""FOXM1""]",0.6000000000000001,0.6000000000000001
+S1_P400,MCM4,True,True,5,"[""POLR2L"", ""POLG2"", ""MEN1"", ""PPP4C"", ""UBE2D3""]",0.2,0.6000000000000001
+S1_P400,RNF8,True,True,5,"[""UBE2D3"", ""NFRKB"", ""UCHL5"", ""FANCC"", ""MEN1""]",0.4,0.8
+S1_P400,TRIP13,True,True,5,"[""POLG2"", ""NSMCE2"", ""MAD2L2"", ""UBE2D3"", ""CDC7""]",1.0,0.6000000000000001
+S1_P400,UBE2N,True,True,5,"[""XRCC1"", ""WHSC1"", ""SLX4"", ""NUDT16L1"", ""UBC""]",0.6000000000000001,0.0
+S1_P400,UBE2V2,True,True,5,"[""SUMO1"", ""MUM1"", ""INO80E"", ""RAD50"", ""RAD1""]",0.2,0.4
+S1_P400,UBR5,True,True,5,"[""OBFC1"", ""SMARCAL1"", ""PIF1"", ""UBC"", ""SWSAP1""]",1.0,1.0
+S1_P400,UHRF1,True,True,5,"[""FANCC"", ""UBE2B"", ""NFRKB"", ""UBE2D3"", ""GTF2H3""]",0.6000000000000001,0.6000000000000001
+S2_single_R3_record,DCLRE1B,True,True,5,"[""HUWE1"", ""TFPT"", ""FANCC"", ""COPS8"", ""LIG3""]",0.2,0.2
+S2_single_R3_record,DDX1,True,True,5,"[""GTF2H3"", ""ASCC3"", ""MEAF6"", ""TRRAP"", ""BARD1""]",0.4,0.6000000000000001
+S2_single_R3_record,DOT1L,True,True,5,"[""ING3"", ""RIF1"", ""TOP3A"", ""WDR48"", ""C11orf30""]",1.0,0.2
+S2_single_R3_record,FANCF,True,True,3,"[""RAD1"", ""ERCC1"", ""TRIP12""]",1.0,0.0
+S2_single_R3_record,GTF2H5,True,True,5,"[""FZR1"", ""BLM"", ""C11orf30"", ""TOP3A"", ""RIF1""]",0.8,0.6000000000000001
+S2_single_R3_record,MCM4,True,True,5,"[""POLR2L"", ""POLG2"", ""MEN1"", ""PPP4C"", ""UBE2D3""]",0.2,0.6000000000000001
+S2_single_R3_record,RNF8,True,True,5,"[""UBE2D3"", ""NFRKB"", ""UCHL5"", ""FANCC"", ""MEN1""]",0.4,0.8
+S2_single_R3_record,TRIP13,True,True,5,"[""POLG2"", ""NSMCE2"", ""MAD2L2"", ""UBE2D3"", ""CDC7""]",1.0,0.6000000000000001
+S2_single_R3_record,UBE2N,True,True,5,"[""XRCC1"", ""WHSC1"", ""NUDT16L1"", ""ASCC2"", ""SLX4""]",0.4,0.2
+S2_single_R3_record,UBE2V2,True,True,5,"[""SUMO1"", ""MUM1"", ""INO80E"", ""RAD50"", ""RAD1""]",0.2,0.4
+S2_single_R3_record,UBR5,True,True,5,"[""OBFC1"", ""SMARCAL1"", ""UBC"", ""SWSAP1"", ""STRA13""]",1.0,1.0
+S2_single_R3_record,UHRF1,True,True,5,"[""FANCC"", ""UBE2B"", ""NFRKB"", ""UBE2D3"", ""GTF2H3""]",0.6000000000000001,0.6000000000000001
+S3_no_missing_R3_records,DCLRE1B,True,True,5,"[""HUWE1"", ""TFPT"", ""FANCC"", ""COPS8"", ""LIG3""]",0.2,0.2
+S3_no_missing_R3_records,DDX1,True,True,5,"[""GTF2H3"", ""ASCC3"", ""MEAF6"", ""TRRAP"", ""BARD1""]",0.4,0.6000000000000001
+S3_no_missing_R3_records,DOT1L,True,True,5,"[""ING3"", ""RIF1"", ""TOP3A"", ""WDR48"", ""C11orf30""]",1.0,0.2
+S3_no_missing_R3_records,FANCF,True,True,3,"[""RAD1"", ""ERCC1"", ""TRIP12""]",1.0,0.0
+S3_no_missing_R3_records,GTF2H5,True,True,5,"[""FZR1"", ""BLM"", ""C11orf30"", ""TOP3A"", ""RIF1""]",0.8,0.6000000000000001
+S3_no_missing_R3_records,MCM4,True,True,5,"[""POLR2L"", ""POLG2"", ""MEN1"", ""PPP4C"", ""UBE2D3""]",0.2,0.6000000000000001
+S3_no_missing_R3_records,RNF8,True,True,5,"[""UBE2D3"", ""NFRKB"", ""UCHL5"", ""FANCC"", ""MEN1""]",0.4,0.8
+S3_no_missing_R3_records,TRIP13,True,True,5,"[""POLG2"", ""NSMCE2"", ""MAD2L2"", ""UBE2D3"", ""CDC7""]",1.0,0.6000000000000001
+S3_no_missing_R3_records,UBE2N,True,True,5,"[""XRCC1"", ""WHSC1"", ""SLX4"", ""ASCC2"", ""NUDT16L1""]",0.4,0.2
+S3_no_missing_R3_records,UBE2V2,True,True,5,"[""SUMO1"", ""MUM1"", ""INO80E"", ""RAD50"", ""RAD1""]",0.2,0.4
+S3_no_missing_R3_records,UBR5,True,True,5,"[""OBFC1"", ""SMARCAL1"", ""PIF1"", ""UBC"", ""SWSAP1""]",1.0,1.0
+S3_no_missing_R3_records,UHRF1,True,True,5,"[""FANCC"", ""UBE2B"", ""NFRKB"", ""UBE2D3"", ""GTF2H3""]",0.6000000000000001,0.6000000000000001

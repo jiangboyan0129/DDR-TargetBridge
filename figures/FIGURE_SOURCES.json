@@ -1,0 +1,17 @@
+{
+  "01_components": [
+    "results/canonical/support_views/decision_grid.tsv"
+  ],
+  "02_comparator_members": [
+    "revision/results/revision/retained_added_gene_values.tsv"
+  ],
+  "03_count_floor": [
+    "results/canonical/support_views/count_floor.tsv"
+  ],
+  "04_samples_M": [
+    "results/canonical/support_views/pathway_sample_values.tsv"
+  ],
+  "04_samples_C": [
+    "results/canonical/support_views/pathway_sample_values.tsv"
+  ]
+}

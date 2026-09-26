@@ -1,0 +1,21 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  public-core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: environment/requirements-core.txt
+      - name: Install numerical dependencies
+        run: python -m pip install -r environment/requirements-core.txt
+      - name: Verify public package and unit tests
+        run: python tools/run.py verify
+      - name: Deterministic downstream core smoke test
+        run: python tools/run.py core --output .build/ci-core

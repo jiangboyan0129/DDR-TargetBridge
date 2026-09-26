@@ -1,0 +1,15 @@
+{
+  "status": "DISCLOSURE_REVISION_AND_BACKGROUND_RERANK_COMPLETE",
+  "source_snapshots_verified": 16,
+  "numeric_checks": 78,
+  "maximum_absolute_error": 1.7763568394002505e-15,
+  "whole_study_reproduction": false,
+  "source_HDF5_reopened": false,
+  "source_R2_XLSX_reparsed": false,
+  "historical_PRKDC_linkage_or_matching_rebuilt": false,
+  "crossover_background_reconstruction": "full 16,549-gene exported score vectors -> ranks -> 2 fixed modules -> 6 fixed contrasts",
+  "new_targets_or_effect_tests": false,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "date": "2026-09-19",
+  "status": "PI_LOCKED_FIRST_EVIDENCE_PILOT",
+  "scope": "Prespecified finite-panel functional-evidence analysis; not a confirmatory assay-population inference or a trained prediction model",
+  "source_stage0_report_sha256": "b26ed627d40a969c80cac812635314c9663669794e826a8da7e4b74cf367d49d",
+  "question": "Do published PRKDC-partner adverse genetic-interaction hypotheses show concordant AZD7648-conditioned sensitization in the two parental-A549 experiments, and is their prioritization distinguishable from generic genetic fragility, untreated fitness, and the available R2 DDR-drug sensitivity controls?",
+  "source_root_default": "[LOCAL_PATH]/ddr_target_bridge_stage0",
+  "output_sibling_name": "ddr_target_bridge_stage1",
+  "fixed_target": "PRKDC",
+  "fixed_compound": "AZD7648",
+  "source_threshold": {"field_semantics": "GEMINI sensitive", "operator": "<=", "value": -1.0, "positive_name": "source_called", "comparator_name": "source_not_called_not_biological_negative"},
+  "expected_counts": {
+    "r1_scored_pairs": 149787, "r1_genes": 548, "r1_prkdc_partners": 547,
+    "r1_source_called_partners": 36, "three_way_exact_symbol_partners": 419,
+    "finite_complete_endpoint_genes": 400, "primary_r2_transcript_consistent_genes": 380
+  },
+  "primary_panel": "Exactly the 380 complete-endpoint partner genes with identical published R2 transcript labels across DNAPKi rho, its matched gamma, ATMi rho, ATRi rho and WEE1i rho",
+  "do_not_infer": ["P1/P2 equivalence across libraries", "guide independence", "replicate-level noise", "drug selectivity", "patient generalization", "temporal blinding from publication dates"],
+  "r2": {"background": "parental A549", "library": "v2.1", "compound_nM": 1000, "exposure_days": 14, "growth_normalized": false, "specificity": ["ATMi", "ATRi", "WEE1i"], "exclude": ["PARPi combinations", "pseudocontrols as gene partners"]},
+  "r3": {"background": "parental A549 WT", "library": "v3", "compound_nM": 625, "exposure_days": 11, "growth_normalized": true, "gamma_semantics": "parent::gamma only", "no_vehicle_gamma_backfill": true, "exclude": ["PRDX1-KO"]},
+  "identity_policy": "Exact published gene symbols only; source IDs, row IDs, transcript labels and element IDs retained; no alias repair",
+  "r3_gene_summary": {
+    "unit": "distinct original scored element records within a published gene symbol",
+    "eligibility": "both WT rho and its matched parent gamma finite in the SAME record",
+    "central_summary": "unweighted median across eligible records, separately for rho and gamma; descriptive gene-label summaries, not a synthetic single construct or replicate estimate",
+    "preserve": ["all records", "rho minimum/median/maximum", "gamma minimum/median/maximum", "record count", "paired-complete record count", "missing-record flags", "rho sign discordance"],
+    "envelope": "For pairwise separation, least-sensitive source-called versus most-sensitive comparator is the lower observed-record bound; reverse choices give the upper bound. These are NOT confidence intervals."
+  },
+  "rank_formula": "(midrank(x)-0.5)/n; ascending midranks; ties averaged; fixed common gene universe separately in each analysis",
+  "positive_score_direction": {"source": "-GEMINI_sensitive", "sensitization": "-rho", "untreated_vulnerability": "-gamma"},
+  "primary_outputs": ["A_R2", "A_R3_median", "A_R3_observed_record_lower", "A_R3_observed_record_upper"],
+  "pairwise_effect": "mean over source-called g and source-not-called h of I(-rho_g > -rho_h)+0.5*I(equal); 0.5 is a no-separation reference, not an experimental null distribution",
+  "generic_fragility": "Fraction of all other finite R1 interactions for a gene with sensitive <= -1, excluding interactions involving PRKDC and excluding self; retain numerator and denominator",
+  "matched_control_diagnostic": {
+    "covariates": ["midrank fraction of source generic fragility", "midrank fraction of -R2 gamma", "midrank fraction of -median R3 gamma"],
+    "max_controls_per_called_gene": 5,
+    "caliper_each_coordinate": 0.2,
+    "distance": "squared Euclidean distance in the three rank coordinates",
+    "ties": "gene-symbol lexicographic order",
+    "replacement_between_called_genes": true,
+    "within_called_gene": "distinct comparator genes only",
+    "unmatched": "retain in primary analysis, mark unavailable in matched diagnostic; no caliper expansion",
+    "weighting": "each matched source-called gene has total weight one, divided equally across its controls",
+    "scope": "Retrospective conditional diagnostic, not a prospectively available predictor or causal adjustment; gamma and rho share vehicle measurements"
+  },
+  "specificity_diagnostic": {
+    "formula": "q_DNAPKi_R2 - median(q_ATMi_R2,q_ATRi_R2,q_WEE1i_R2), with q based on -rho ranks",
+    "outputs": ["all three pairwise rank differences", "median contrast by source class", "between-class median contrast", "all raw signed endpoints"],
+    "scope": "Relative priority under the tested assay/dose conditions only; no equitoxic dosing claim and no biochemical or clinical selectivity claim"
+  },
+  "effect_reference_grid": [0.5, 0.55, 0.6, 0.65, 0.7],
+  "grid_role": "Report all descriptive separation levels in both screens; no chosen minimum pharmaceutical value and no result-dependent headline threshold",
+  "uncertainty_policy": {
+    "formal_p_values": false, "biological_confidence_intervals": false, "gene_bootstrap_as_assay_replication": false,
+    "required": ["deterministic delete-one-gene ranges", "leave-one-source-called-gene ranges", "observed-record envelope", "all prespecified sensitivities", "exact support denominators"],
+    "interpretation": "Sensitivity of finite published scores, not repeated-screen uncertainty; aggregate tables do not identify assay replicate variance"
+  },
+  "sensitivities": [
+    {"id": "S1", "name": "complete400", "cohort": "all 400 finite-endpoint genes", "warning": "includes 20 genes with discordant R2 transcript labels; cannot independently rescue same-perturbation specificity"},
+    {"id": "S2", "name": "single_R3_record", "cohort": "subset of primary380 with exactly one original eligible-context R3 element record AND that record is paired-complete", "warning": "record count is determined before outcome interpretation; report actual N and source-positive count"},
+    {"id": "S3", "name": "no_missing_R3_records", "cohort": "subset of primary380 in which every original eligible-context R3 element record is paired-complete", "warning": "tests partial-record ascertainment; no substitution of missing values"}
+  ],
+  "continuous_source_scores": "Display/source-order descriptive checks only; do not tune a source threshold",
+  "phase_decisions": ["FIRST_EVIDENCE_COMPLETE", "IMPLEMENTATION_OR_VALIDITY_STOP", "NO_SOURCE_CLASS_CONTRAST"],
+  "next_investment_policy": "Stop after the first locked evidence report. The PI reviews magnitude, support and alternative explanations. No automatic modeling, target expansion, new dataset or wet-lab claim.",
+  "figures": ["F1 support and experiment-design differences", "F2 separate R2/R3 source-set separation with observed-record and gene-deletion sensitivity", "F3 common-universe rank contrasts and matched-control diagnostic", "F4 all prespecified cohort/record sensitivities"],
+  "permissions": {"new_downloads": false, "literature_search": false, "predictive_training": false, "functional_score_analysis": true, "alter_F_B1": false, "alter_stage0": false, "alter_targets_or_endpoints": false, "write_new_analysis_directory": true},
+  "required_runtime_binding": "Map Stage0 schema/metadata to canonical fields using recorded semantics, save bindings and whitelist hashes BEFORE cross-source statistics. A unique mechanical mapping is permitted; semantic ambiguity requires STOP."
+}

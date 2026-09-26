@@ -1,0 +1,7 @@
+stage,n_genes,source_called,source_not_called
+source547,547,36,511
+exact419,419,14,405
+support400,400,12,388
+primary380,380,12,368
+S2_single_R3_record,378,12,366
+S3_no_missing_R3_records,380,12,368

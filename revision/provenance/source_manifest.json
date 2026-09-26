@@ -1,0 +1,92 @@
+[
+  {
+    "path": "data/terminal/decision_grid.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/decision_grid.tsv",
+    "bytes": 2325,
+    "sha256": "43b9aaf4538dba0a28650c5bfd714a2cc07285b5d1d848fd21132b948c1078ca"
+  },
+  {
+    "path": "data/terminal/pathway_sample_values.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/pathway_sample_values.tsv",
+    "bytes": 13315,
+    "sha256": "df67cfdf420d4ff3c2db7245e158c05ec8ea26e359a045045ca7ae826c211c8f"
+  },
+  {
+    "path": "data/terminal/gene_transcript_effects.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/gene_transcript_effects.tsv",
+    "bytes": 121880,
+    "sha256": "db03db1b963333e8e687f78f9da18862aba1e87bee823d024338de155febfb77"
+  },
+  {
+    "path": "data/terminal/pathway_membership.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/pathway_membership.tsv",
+    "bytes": 18875,
+    "sha256": "56662cc451deace0af64f7741cbdbd8b4449ef4c61d4647492a97fc3553d40b4"
+  },
+  {
+    "path": "data/terminal/count_floor.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/count_floor.tsv",
+    "bytes": 5780,
+    "sha256": "e3ed54eaba15818182d1e46972ade1cc79f8fc4b57ab9fb3b1bf70f887f3d634"
+  },
+  {
+    "path": "data/terminal/member_sample_values.tsv.gz",
+    "source": "DDR_TARGETBRIDGE_FINAL_DECISION.zip::DDR_FINAL_DECISION/results/member_sample_values.tsv.gz",
+    "bytes": 170449,
+    "sha256": "24281bf6fe6fe11b461d622193be04eec9ed563c416c09cf63f9c2818186da6f"
+  },
+  {
+    "path": "data/crossover/R2_frozen_background_values.tsv.gz",
+    "source": "REVIEW_FIXED_COMPARISON.zip::R2_frozen_background_values.tsv.gz",
+    "bytes": 1562339,
+    "sha256": "91bfc9d304e280ebd7cacef0f21d0345bdd65b59354e6437a6b09df539e3a989"
+  },
+  {
+    "path": "data/crossover/R2_modules.tsv",
+    "source": "REVIEW_FIXED_COMPARISON.zip::R2_modules.tsv",
+    "bytes": 1626,
+    "sha256": "3a735fd783ff07956f210f9b39a2270b7fa7dced563f10d964dd97ac50c4cc2d"
+  },
+  {
+    "path": "data/crossover/R2_contrasts.tsv",
+    "source": "REVIEW_FIXED_COMPARISON.zip::R2_contrasts.tsv",
+    "bytes": 773,
+    "sha256": "22f1646a71c30b57ff23d6ac1b7550471a5f820882e15d6533874e3aa23f9a5e"
+  },
+  {
+    "path": "data/crossover/R2_member_evidence.tsv",
+    "source": "REVIEW_FIXED_COMPARISON.zip::R2_member_evidence.tsv",
+    "bytes": 16469,
+    "sha256": "21f7d1ee3bea6b9ef2947c016895bce01a368a704b5e435aa5a24fa4005cd37d"
+  },
+  {
+    "path": "data/crossover/PROTOCOL_LOCK.json",
+    "source": "REVIEW_FIXED_COMPARISON.zip::PROTOCOL_LOCK.json",
+    "bytes": 3458,
+    "sha256": "1234ea0a21e376b7382736dd53a42edd755970257a89cb785fbdb25d10d03ae1"
+  },
+  {
+    "path": "data/crossover/common_background.tsv",
+    "source": "DDR_CROSS_MODULE_NEXT_STEP.zip::locked/common_background.tsv",
+    "bytes": 650417,
+    "sha256": "2260d4d945cb5d4d77c3d196ab7e03dd9d7bf1b07118eab9d37a388f8be83bbe"
+  },
+  {
+    "path": "data/crossover/members.tsv",
+    "source": "DDR_CROSS_MODULE_NEXT_STEP.zip::locked/members.tsv",
+    "bytes": 349,
+    "sha256": "e8cb582618a007125819535190e4977420304256bddf57efbc2da75c32cb25f1"
+  },
+  {
+    "path": "data/context/Fig5d_full_source_values.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_BUILD_SPEC.zip::source_snapshots/history/I-FIG5VAL/Fig5d_full_source_values.tsv",
+    "bytes": 33616,
+    "sha256": "49bf504ff9b6dd43c835fb45efab46d7daa5805414add51afb640ca857ab2bef"
+  },
+  {
+    "path": "data/context/normalization_denominator_ledger.tsv",
+    "source": "DDR_TARGETBRIDGE_FINAL_BUILD_SPEC.zip::source_snapshots/history/P-LIMIT/normalization_denominator_ledger.tsv",
+    "bytes": 9645,
+    "sha256": "53680890d0e4828bcdaf136d0321386689dbbfc16dcd173adb0bf754339c11ac"
+  }
+]

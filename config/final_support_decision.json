@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-22T00:07:51.989018+00:00",
+  "state": "EXPLORATORY_DECISION_TEST_DEFINED_BEFORE_NEW_EFFECT_COMPUTATION",
+  "principal_question": "Does a mitochondrial-vs-cytosolic-translation priority survive restoring T0-supported comparator genes?",
+  "decision_use": "Decide whether to fund further computational mitochondrial-specific target claims in this archive, NOT validate a target",
+  "M": "R-HSA-5368287",
+  "C": "R-HSA-156842",
+  "primary_continuity_transform": "replace exact zero by 0.5; positive counts unchanged; log2; subtract fixed 1024 NTC median per sample",
+  "named_sensitivity": "count+1 then log2 with same NTC IDs",
+  "support_views": [
+    "S0_old_genes_old_transcripts",
+    "S1_old_genes_T0_transcripts",
+    "S2_T0_genes_T0_transcripts"
+  ],
+  "T0_requirement": "both backgrounds real T0 mean>=40; unique physical mapping",
+  "remove_only": "terminal vehicle mean>=40; keep old results separately",
+  "hierarchy": "equal constructs per target-transcript, equal transcripts per gene, equal genes per pathway",
+  "primary_readout": "L=M-C per sample; beta_WT, beta_KO; theta_L=beta_KO-beta_WT",
+  "no_causal_percentages": true,
+  "no_new_target_selection": true,
+  "main_decision_fail_condition": "A sign change under fixed transform when comparator support is restored defeats support-invariant pathway-priority inference; absent independent same-claim measured validation blocks target-validation promotion regardless",
+  "positive_result_limit": "Stable descriptive signs would support only context-bounded follow-up hypothesis, not target efficacy; no invented therapeutic effect threshold",
+  "previously_exposed": "Original effects, support counts, SUM old projections and public source assays already read. This is not confirmatory or outcome-blind science.",
+  "source_count_provenance": "Complete count export in supplied review; audit package reports exact agreement with real HDF5; this run does not independently open original HDF5",
+  "completion": "Execute all six views, transcript/member decomposition, count floors, member and sample influence; use fixed SUM as contextual negative comparison; finish portfolio with go/no-go, no automatic new project"
+}

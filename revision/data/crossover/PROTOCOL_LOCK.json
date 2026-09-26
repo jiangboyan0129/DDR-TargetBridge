@@ -1,0 +1,107 @@
+{
+  "schema": "DDR_CROSSED_MODULE_PROPOSAL_V1",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "authored_as_of": "2026-09-20",
+  "selection": "Explicit post-discovery and post-literature-review hypothesis; not a preregistered or exhaustive optimum",
+  "hypothesis": "HR-related L2.32 ranks above mixed metabolic L2.139 under olaparib, and below it under MK-1775/AZD1775 in the R2 retrospective program holdout",
+  "modules": {
+    "HAP1.L2.32": [
+      "APEX2",
+      "EXO1",
+      "MND1",
+      "PARP1",
+      "PSMC3IP",
+      "RAD51B",
+      "RAD54L",
+      "XRCC2",
+      "ZSWIM7"
+    ],
+    "HAP1.L2.139": [
+      "ABCD4",
+      "ADK",
+      "ANKRD40",
+      "HPRT1",
+      "MMACHC",
+      "MTR",
+      "MTRR",
+      "PNP",
+      "SHMT1",
+      "SLC43A3"
+    ]
+  },
+  "module_hashes": {
+    "HAP1.L2.32": "84eba09a87122112394b52f7640df225c1d7f3198e3ec8cd0c4489b0d5482982",
+    "HAP1.L2.139": "2426c172fd89135caa93c65da6cfa4860acf48ebe4592f5c691a9113dd65c509"
+  },
+  "common_background_n": 16549,
+  "common_background_sha256_newline": "82cce8947c727865c4456e468c9e1040fcd173c9665f604be56a2e383a9752d3",
+  "locked_files": {
+    "members.tsv": "e8cb582618a007125819535190e4977420304256bddf57efbc2da75c32cb25f1",
+    "common_background.tsv": "2260d4d945cb5d4d77c3d196ab7e03dd9d7bf1b07118eab9d37a388f8be83bbe"
+  },
+  "primary_conditions": [
+    "PARPi",
+    "WEE1i"
+  ],
+  "expected_order": {
+    "PARPi": "L2.32 > L2.139",
+    "WEE1i": "L2.32 < L2.139"
+  },
+  "discovery_conditions": {
+    "PARPi": "Olaparib_4uM",
+    "WEE1i": "MK-1775_320nM",
+    "rucaparib_context_only": "Rucaparib_6_5uM"
+  },
+  "r2": {
+    "expected_sha256": "d71242b0a5c18f4eeb53e1f5d4db5580432f8ecf2d5e9c88d66977e30220f367",
+    "default_relative_path": "outputs/ddr_target_bridge_stage0/raw/DDRi_Dataset1_v2.xlsx",
+    "sheet": "Gene Level Phenotypes",
+    "program": "A549 WT CRISPRi v2.1, 14 days",
+    "doses": {
+      "PARPi": "olaparib 1 uM",
+      "WEE1i": "AZD1775 300 nM"
+    },
+    "primary": "both within-drug module order inequalities must hold",
+    "secondary": [
+      "all other R2 single-drug rho",
+      "DMSO gamma separately",
+      "PARP1 removal from all backgrounds/vectors and HR module (secondary only)"
+    ]
+  },
+  "discovery_files": {
+    "discovery_lock.json": {
+      "bytes": 2834695,
+      "sha256": "2baf98fbbc9fded3dc6376f084a1f5046d198603114c5610c11f36be76ed145e",
+      "verified": true
+    },
+    "cache/chemical.npz": {
+      "bytes": 13740631,
+      "sha256": "d41bba10a0803ad492734b529511363a1045d5b0247f80a2f5845cbd03f0dfce",
+      "verified": true
+    },
+    "cache/fitness.npz": {
+      "bytes": 372341,
+      "sha256": "5d05f8240faafdf2bdc675662157725930c7925fbb5703b0ed3f3742c8d6ee86",
+      "verified": true
+    }
+  },
+  "scientific_bounds": [
+    "not independent patients or replicate-level precision",
+    "not gene-level target validation",
+    "not equipotent drug efficacy comparison",
+    "not confirmation of olaparib-rucaparib difference",
+    "not proof of WEE1-specific mechanism",
+    "not generalizing 75 comparisons from two conditions",
+    "new module selection uses exposed discovery and source literature; prior R2/R3 historical exposure must be disclosed"
+  ],
+  "no_changes": [
+    "old NO-GO",
+    "B BLOCKED",
+    "A REJECTED",
+    "old L2.10 nominations",
+    "existing modules",
+    "frozen background"
+  ],
+  "confirmation_executed_here": false,
+  "required_authorization": "I_AUTHORIZE_THE_FROZEN_TWO_MODULE_R2_CHECK"
+}

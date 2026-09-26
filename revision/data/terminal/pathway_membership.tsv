@@ -1,0 +1,473 @@
+transform	pathway	gene	old_supported	T0_supported	old_transcripts	T0_transcripts
+zero_only_0.5	M	AURKAIP1	True	True	P1P2	P1P2
+zero_only_0.5	M	CHCHD1	True	True	P1P2	P1P2
+zero_only_0.5	M	DAP3	True	True	P1P2	P1P2
+zero_only_0.5	M	ERAL1	True	True	P1P2	P1P2
+zero_only_0.5	M	GADD45GIP1	True	True	P1P2	P1P2
+zero_only_0.5	M	GFM1	True	True	P1P2	P1P2
+zero_only_0.5	M	GFM2	True	True	P1P2	P1P2
+zero_only_0.5	M	KGD4	False	False		
+zero_only_0.5	M	MALSU1	True	True	P1P2	P1P2
+zero_only_0.5	M	MIEF1	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL1	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL10	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL11	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL12	False	False		
+zero_only_0.5	M	MRPL13	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL14	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL15	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL16	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL17	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL18	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL19	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL2	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL20	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL21	False	True		P1P2
+zero_only_0.5	M	MRPL22	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL23	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL24	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL27	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL28	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL3	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL30	True	True	P2	P2
+zero_only_0.5	M	MRPL32	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL33	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL34	False	True		P1P2
+zero_only_0.5	M	MRPL35	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL36	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL37	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL38	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL39	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL4	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL40	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL41	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL42	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL43	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL44	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL45	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL46	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL47	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL48	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL49	False	True		P1P2
+zero_only_0.5	M	MRPL50	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL51	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL52	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL53	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL54	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL55	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPL57	False	False		
+zero_only_0.5	M	MRPL58	False	False		
+zero_only_0.5	M	MRPL9	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS10	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS11	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS12	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS14	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS15	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS16	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS17	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS18A	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS18B	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS18C	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS2	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS21	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS22	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS23	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS24	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS25	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS26	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS27	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS28	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS30	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS31	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS33	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS34	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS35	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS5	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS6	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS7	True	True	P1P2	P1P2
+zero_only_0.5	M	MRPS9	True	True	P1P2	P1P2
+zero_only_0.5	M	MRRF	True	True	P1P2	P1P2
+zero_only_0.5	M	MT-ATP6	False	False		
+zero_only_0.5	M	MT-ATP8	False	False		
+zero_only_0.5	M	MT-CO1	False	False		
+zero_only_0.5	M	MT-CO2	False	False		
+zero_only_0.5	M	MT-CO3	False	False		
+zero_only_0.5	M	MT-CYB	False	False		
+zero_only_0.5	M	MT-ND1	False	False		
+zero_only_0.5	M	MT-ND2	False	False		
+zero_only_0.5	M	MT-ND3	False	False		
+zero_only_0.5	M	MT-ND4	False	False		
+zero_only_0.5	M	MT-ND4L	False	False		
+zero_only_0.5	M	MT-ND5	False	False		
+zero_only_0.5	M	MT-ND6	False	False		
+zero_only_0.5	M	MT-RNR1	False	False		
+zero_only_0.5	M	MT-RNR2	False	False		
+zero_only_0.5	M	MT-TA	False	False		
+zero_only_0.5	M	MT-TC	False	False		
+zero_only_0.5	M	MT-TD	False	False		
+zero_only_0.5	M	MT-TE	False	False		
+zero_only_0.5	M	MT-TF	False	False		
+zero_only_0.5	M	MT-TG	False	False		
+zero_only_0.5	M	MT-TH	False	False		
+zero_only_0.5	M	MT-TI	False	False		
+zero_only_0.5	M	MT-TK	False	False		
+zero_only_0.5	M	MT-TL1	False	False		
+zero_only_0.5	M	MT-TL2	False	False		
+zero_only_0.5	M	MT-TM	False	False		
+zero_only_0.5	M	MT-TN	False	False		
+zero_only_0.5	M	MT-TP	False	False		
+zero_only_0.5	M	MT-TQ	False	False		
+zero_only_0.5	M	MT-TR	False	False		
+zero_only_0.5	M	MT-TS1	False	False		
+zero_only_0.5	M	MT-TS2	False	False		
+zero_only_0.5	M	MT-TT	False	False		
+zero_only_0.5	M	MT-TV	False	False		
+zero_only_0.5	M	MT-TW	False	False		
+zero_only_0.5	M	MT-TY	False	False		
+zero_only_0.5	M	MTFMT	True	True	P1P2	P1P2
+zero_only_0.5	M	MTIF2	True	True	P1P2	P1P2
+zero_only_0.5	M	MTIF3	True	True	P1P2	P1P2
+zero_only_0.5	M	MTRES1	False	False		
+zero_only_0.5	M	MTRF1	True	True	P1P2	P1P2
+zero_only_0.5	M	MTRF1L	True	True	P1P2	P1P2
+zero_only_0.5	M	MTRFR	False	False		
+zero_only_0.5	M	NDUFAB1	False	True		P1P2
+zero_only_0.5	M	OXA1L	False	True		P1P2
+zero_only_0.5	M	PTCD3	True	True	P1P2	P1P2
+zero_only_0.5	M	TSFM	True	True	P1P2	P1P2
+zero_only_0.5	M	TUFM	True	True	P1P2	P1P2
+zero_only_0.5	C	18S rRNA	False	False		
+zero_only_0.5	C	28S rRNA	False	False		
+zero_only_0.5	C	5.8S rRNA	False	False		
+zero_only_0.5	C	5S rRNA	False	False		
+zero_only_0.5	C	EEF1A1	True	True	P1P2	P1P2
+zero_only_0.5	C	EEF1A1P5	False	False		
+zero_only_0.5	C	EEF1A2	True	True	P1P2	P1P2
+zero_only_0.5	C	EEF1B2	True	True	P1P2	P1P2
+zero_only_0.5	C	EEF1D	True	True	P1P2	P1P2
+zero_only_0.5	C	EEF1G	False	True		P1P2
+zero_only_0.5	C	EEF2	True	True	P2	P1;P2
+zero_only_0.5	C	FAU	False	True		P1P2
+zero_only_0.5	C	RPL10	False	True		P1P2
+zero_only_0.5	C	RPL10A	False	True		P1P2
+zero_only_0.5	C	RPL10L	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL11	False	True		P1P2
+zero_only_0.5	C	RPL12	False	True		P1P2
+zero_only_0.5	C	RPL13	False	True		P1P2
+zero_only_0.5	C	RPL13A	True	True	P2	P1;P2
+zero_only_0.5	C	RPL14	False	True		P1P2
+zero_only_0.5	C	RPL15	False	True		P1P2
+zero_only_0.5	C	RPL17	False	True		P1P2
+zero_only_0.5	C	RPL18	False	True		P1P2
+zero_only_0.5	C	RPL18A	False	True		P1P2
+zero_only_0.5	C	RPL19	False	True		P1P2
+zero_only_0.5	C	RPL21	False	True		P1P2
+zero_only_0.5	C	RPL22	True	True	P1;P2	P1;P2
+zero_only_0.5	C	RPL22L1	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL23	False	True		P1P2
+zero_only_0.5	C	RPL23A	False	True		P1P2
+zero_only_0.5	C	RPL24	False	True		P1P2
+zero_only_0.5	C	RPL26	False	True		P1P2
+zero_only_0.5	C	RPL26L1	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL27	False	False		
+zero_only_0.5	C	RPL27A	False	True		P1P2
+zero_only_0.5	C	RPL28	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL29	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL3	False	True		P1P2
+zero_only_0.5	C	RPL30	False	True		P1P2
+zero_only_0.5	C	RPL31	False	True		P1P2
+zero_only_0.5	C	RPL32	False	True		P1P2
+zero_only_0.5	C	RPL34	False	True		P1P2
+zero_only_0.5	C	RPL35	False	True		P1P2
+zero_only_0.5	C	RPL35A	False	True		P1P2
+zero_only_0.5	C	RPL36	False	True		P1P2
+zero_only_0.5	C	RPL36A	False	False		
+zero_only_0.5	C	RPL36AL	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL37	False	True		P1P2
+zero_only_0.5	C	RPL37A	False	True		P1P2
+zero_only_0.5	C	RPL38	False	True		P1P2
+zero_only_0.5	C	RPL39	False	True		P1P2
+zero_only_0.5	C	RPL39L	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL3L	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL4	False	True		P1P2
+zero_only_0.5	C	RPL41	True	True	P1P2	P1P2
+zero_only_0.5	C	RPL5	False	True		P1P2
+zero_only_0.5	C	RPL6	False	True		P1P2
+zero_only_0.5	C	RPL7	False	True		P1P2
+zero_only_0.5	C	RPL7A	False	False		
+zero_only_0.5	C	RPL8	False	True		P1P2
+zero_only_0.5	C	RPL9	False	True		P1P2
+zero_only_0.5	C	RPLP0	False	True		P1P2
+zero_only_0.5	C	RPLP1	False	True		P1P2
+zero_only_0.5	C	RPLP2	False	True		P1P2
+zero_only_0.5	C	RPS10	False	True		P1P2
+zero_only_0.5	C	RPS11	False	True		P1P2
+zero_only_0.5	C	RPS12	False	True		P1P2
+zero_only_0.5	C	RPS13	False	True		P1P2
+zero_only_0.5	C	RPS14	False	True		P1P2
+zero_only_0.5	C	RPS15	False	True		P1P2
+zero_only_0.5	C	RPS15A	False	True		P1P2
+zero_only_0.5	C	RPS16	False	True		P1P2
+zero_only_0.5	C	RPS17	False	True		ENST00000330339.7
+zero_only_0.5	C	RPS18	False	True		P1P2
+zero_only_0.5	C	RPS19	False	True		P1P2
+zero_only_0.5	C	RPS2	False	True		P1P2
+zero_only_0.5	C	RPS20	False	True		P1P2
+zero_only_0.5	C	RPS21	False	True		P1P2
+zero_only_0.5	C	RPS23	False	True		P1P2
+zero_only_0.5	C	RPS24	False	True		P1P2
+zero_only_0.5	C	RPS25	False	True		P1P2
+zero_only_0.5	C	RPS26	False	True		P1P2
+zero_only_0.5	C	RPS27	True	True	P1P2	P1P2
+zero_only_0.5	C	RPS27A	False	True		P1P2
+zero_only_0.5	C	RPS27L	True	True	P1P2	P1P2
+zero_only_0.5	C	RPS28	False	True		P1P2
+zero_only_0.5	C	RPS29	True	True	P2	P1;P2
+zero_only_0.5	C	RPS3	True	True	P2	P1;P2
+zero_only_0.5	C	RPS3A	False	True		P1P2
+zero_only_0.5	C	RPS4X	False	True		P1P2
+zero_only_0.5	C	RPS4Y1	True	True	P1P2	P1P2
+zero_only_0.5	C	RPS4Y2	True	True	P1P2	P1P2
+zero_only_0.5	C	RPS5	False	True		P1P2
+zero_only_0.5	C	RPS6	False	True		P1P2
+zero_only_0.5	C	RPS7	False	True		P1P2
+zero_only_0.5	C	RPS8	False	True		P1P2
+zero_only_0.5	C	RPS9	False	True		P1P2
+zero_only_0.5	C	RPSA	False	True		P1P2
+zero_only_0.5	C	UBA52	True	True	P2	P1;P2
+count_plus_1	M	AURKAIP1	True	True	P1P2	P1P2
+count_plus_1	M	CHCHD1	True	True	P1P2	P1P2
+count_plus_1	M	DAP3	True	True	P1P2	P1P2
+count_plus_1	M	ERAL1	True	True	P1P2	P1P2
+count_plus_1	M	GADD45GIP1	True	True	P1P2	P1P2
+count_plus_1	M	GFM1	True	True	P1P2	P1P2
+count_plus_1	M	GFM2	True	True	P1P2	P1P2
+count_plus_1	M	KGD4	False	False		
+count_plus_1	M	MALSU1	True	True	P1P2	P1P2
+count_plus_1	M	MIEF1	True	True	P1P2	P1P2
+count_plus_1	M	MRPL1	True	True	P1P2	P1P2
+count_plus_1	M	MRPL10	True	True	P1P2	P1P2
+count_plus_1	M	MRPL11	True	True	P1P2	P1P2
+count_plus_1	M	MRPL12	False	False		
+count_plus_1	M	MRPL13	True	True	P1P2	P1P2
+count_plus_1	M	MRPL14	True	True	P1P2	P1P2
+count_plus_1	M	MRPL15	True	True	P1P2	P1P2
+count_plus_1	M	MRPL16	True	True	P1P2	P1P2
+count_plus_1	M	MRPL17	True	True	P1P2	P1P2
+count_plus_1	M	MRPL18	True	True	P1P2	P1P2
+count_plus_1	M	MRPL19	True	True	P1P2	P1P2
+count_plus_1	M	MRPL2	True	True	P1P2	P1P2
+count_plus_1	M	MRPL20	True	True	P1P2	P1P2
+count_plus_1	M	MRPL21	False	True		P1P2
+count_plus_1	M	MRPL22	True	True	P1P2	P1P2
+count_plus_1	M	MRPL23	True	True	P1P2	P1P2
+count_plus_1	M	MRPL24	True	True	P1P2	P1P2
+count_plus_1	M	MRPL27	True	True	P1P2	P1P2
+count_plus_1	M	MRPL28	True	True	P1P2	P1P2
+count_plus_1	M	MRPL3	True	True	P1P2	P1P2
+count_plus_1	M	MRPL30	True	True	P2	P2
+count_plus_1	M	MRPL32	True	True	P1P2	P1P2
+count_plus_1	M	MRPL33	True	True	P1P2	P1P2
+count_plus_1	M	MRPL34	False	True		P1P2
+count_plus_1	M	MRPL35	True	True	P1P2	P1P2
+count_plus_1	M	MRPL36	True	True	P1P2	P1P2
+count_plus_1	M	MRPL37	True	True	P1P2	P1P2
+count_plus_1	M	MRPL38	True	True	P1P2	P1P2
+count_plus_1	M	MRPL39	True	True	P1P2	P1P2
+count_plus_1	M	MRPL4	True	True	P1P2	P1P2
+count_plus_1	M	MRPL40	True	True	P1P2	P1P2
+count_plus_1	M	MRPL41	True	True	P1P2	P1P2
+count_plus_1	M	MRPL42	True	True	P1P2	P1P2
+count_plus_1	M	MRPL43	True	True	P1P2	P1P2
+count_plus_1	M	MRPL44	True	True	P1P2	P1P2
+count_plus_1	M	MRPL45	True	True	P1P2	P1P2
+count_plus_1	M	MRPL46	True	True	P1P2	P1P2
+count_plus_1	M	MRPL47	True	True	P1P2	P1P2
+count_plus_1	M	MRPL48	True	True	P1P2	P1P2
+count_plus_1	M	MRPL49	False	True		P1P2
+count_plus_1	M	MRPL50	True	True	P1P2	P1P2
+count_plus_1	M	MRPL51	True	True	P1P2	P1P2
+count_plus_1	M	MRPL52	True	True	P1P2	P1P2
+count_plus_1	M	MRPL53	True	True	P1P2	P1P2
+count_plus_1	M	MRPL54	True	True	P1P2	P1P2
+count_plus_1	M	MRPL55	True	True	P1P2	P1P2
+count_plus_1	M	MRPL57	False	False		
+count_plus_1	M	MRPL58	False	False		
+count_plus_1	M	MRPL9	True	True	P1P2	P1P2
+count_plus_1	M	MRPS10	True	True	P1P2	P1P2
+count_plus_1	M	MRPS11	True	True	P1P2	P1P2
+count_plus_1	M	MRPS12	True	True	P1P2	P1P2
+count_plus_1	M	MRPS14	True	True	P1P2	P1P2
+count_plus_1	M	MRPS15	True	True	P1P2	P1P2
+count_plus_1	M	MRPS16	True	True	P1P2	P1P2
+count_plus_1	M	MRPS17	True	True	P1P2	P1P2
+count_plus_1	M	MRPS18A	True	True	P1P2	P1P2
+count_plus_1	M	MRPS18B	True	True	P1P2	P1P2
+count_plus_1	M	MRPS18C	True	True	P1P2	P1P2
+count_plus_1	M	MRPS2	True	True	P1P2	P1P2
+count_plus_1	M	MRPS21	True	True	P1P2	P1P2
+count_plus_1	M	MRPS22	True	True	P1P2	P1P2
+count_plus_1	M	MRPS23	True	True	P1P2	P1P2
+count_plus_1	M	MRPS24	True	True	P1P2	P1P2
+count_plus_1	M	MRPS25	True	True	P1P2	P1P2
+count_plus_1	M	MRPS26	True	True	P1P2	P1P2
+count_plus_1	M	MRPS27	True	True	P1P2	P1P2
+count_plus_1	M	MRPS28	True	True	P1P2	P1P2
+count_plus_1	M	MRPS30	True	True	P1P2	P1P2
+count_plus_1	M	MRPS31	True	True	P1P2	P1P2
+count_plus_1	M	MRPS33	True	True	P1P2	P1P2
+count_plus_1	M	MRPS34	True	True	P1P2	P1P2
+count_plus_1	M	MRPS35	True	True	P1P2	P1P2
+count_plus_1	M	MRPS5	True	True	P1P2	P1P2
+count_plus_1	M	MRPS6	True	True	P1P2	P1P2
+count_plus_1	M	MRPS7	True	True	P1P2	P1P2
+count_plus_1	M	MRPS9	True	True	P1P2	P1P2
+count_plus_1	M	MRRF	True	True	P1P2	P1P2
+count_plus_1	M	MT-ATP6	False	False		
+count_plus_1	M	MT-ATP8	False	False		
+count_plus_1	M	MT-CO1	False	False		
+count_plus_1	M	MT-CO2	False	False		
+count_plus_1	M	MT-CO3	False	False		
+count_plus_1	M	MT-CYB	False	False		
+count_plus_1	M	MT-ND1	False	False		
+count_plus_1	M	MT-ND2	False	False		
+count_plus_1	M	MT-ND3	False	False		
+count_plus_1	M	MT-ND4	False	False		
+count_plus_1	M	MT-ND4L	False	False		
+count_plus_1	M	MT-ND5	False	False		
+count_plus_1	M	MT-ND6	False	False		
+count_plus_1	M	MT-RNR1	False	False		
+count_plus_1	M	MT-RNR2	False	False		
+count_plus_1	M	MT-TA	False	False		
+count_plus_1	M	MT-TC	False	False		
+count_plus_1	M	MT-TD	False	False		
+count_plus_1	M	MT-TE	False	False		
+count_plus_1	M	MT-TF	False	False		
+count_plus_1	M	MT-TG	False	False		
+count_plus_1	M	MT-TH	False	False		
+count_plus_1	M	MT-TI	False	False		
+count_plus_1	M	MT-TK	False	False		
+count_plus_1	M	MT-TL1	False	False		
+count_plus_1	M	MT-TL2	False	False		
+count_plus_1	M	MT-TM	False	False		
+count_plus_1	M	MT-TN	False	False		
+count_plus_1	M	MT-TP	False	False		
+count_plus_1	M	MT-TQ	False	False		
+count_plus_1	M	MT-TR	False	False		
+count_plus_1	M	MT-TS1	False	False		
+count_plus_1	M	MT-TS2	False	False		
+count_plus_1	M	MT-TT	False	False		
+count_plus_1	M	MT-TV	False	False		
+count_plus_1	M	MT-TW	False	False		
+count_plus_1	M	MT-TY	False	False		
+count_plus_1	M	MTFMT	True	True	P1P2	P1P2
+count_plus_1	M	MTIF2	True	True	P1P2	P1P2
+count_plus_1	M	MTIF3	True	True	P1P2	P1P2
+count_plus_1	M	MTRES1	False	False		
+count_plus_1	M	MTRF1	True	True	P1P2	P1P2
+count_plus_1	M	MTRF1L	True	True	P1P2	P1P2
+count_plus_1	M	MTRFR	False	False		
+count_plus_1	M	NDUFAB1	False	True		P1P2
+count_plus_1	M	OXA1L	False	True		P1P2
+count_plus_1	M	PTCD3	True	True	P1P2	P1P2
+count_plus_1	M	TSFM	True	True	P1P2	P1P2
+count_plus_1	M	TUFM	True	True	P1P2	P1P2
+count_plus_1	C	18S rRNA	False	False		
+count_plus_1	C	28S rRNA	False	False		
+count_plus_1	C	5.8S rRNA	False	False		
+count_plus_1	C	5S rRNA	False	False		
+count_plus_1	C	EEF1A1	True	True	P1P2	P1P2
+count_plus_1	C	EEF1A1P5	False	False		
+count_plus_1	C	EEF1A2	True	True	P1P2	P1P2
+count_plus_1	C	EEF1B2	True	True	P1P2	P1P2
+count_plus_1	C	EEF1D	True	True	P1P2	P1P2
+count_plus_1	C	EEF1G	False	True		P1P2
+count_plus_1	C	EEF2	True	True	P2	P1;P2
+count_plus_1	C	FAU	False	True		P1P2
+count_plus_1	C	RPL10	False	True		P1P2
+count_plus_1	C	RPL10A	False	True		P1P2
+count_plus_1	C	RPL10L	True	True	P1P2	P1P2
+count_plus_1	C	RPL11	False	True		P1P2
+count_plus_1	C	RPL12	False	True		P1P2
+count_plus_1	C	RPL13	False	True		P1P2
+count_plus_1	C	RPL13A	True	True	P2	P1;P2
+count_plus_1	C	RPL14	False	True		P1P2
+count_plus_1	C	RPL15	False	True		P1P2
+count_plus_1	C	RPL17	False	True		P1P2
+count_plus_1	C	RPL18	False	True		P1P2
+count_plus_1	C	RPL18A	False	True		P1P2
+count_plus_1	C	RPL19	False	True		P1P2
+count_plus_1	C	RPL21	False	True		P1P2
+count_plus_1	C	RPL22	True	True	P1;P2	P1;P2
+count_plus_1	C	RPL22L1	True	True	P1P2	P1P2
+count_plus_1	C	RPL23	False	True		P1P2
+count_plus_1	C	RPL23A	False	True		P1P2
+count_plus_1	C	RPL24	False	True		P1P2
+count_plus_1	C	RPL26	False	True		P1P2
+count_plus_1	C	RPL26L1	True	True	P1P2	P1P2
+count_plus_1	C	RPL27	False	False		
+count_plus_1	C	RPL27A	False	True		P1P2
+count_plus_1	C	RPL28	True	True	P1P2	P1P2
+count_plus_1	C	RPL29	True	True	P1P2	P1P2
+count_plus_1	C	RPL3	False	True		P1P2
+count_plus_1	C	RPL30	False	True		P1P2
+count_plus_1	C	RPL31	False	True		P1P2
+count_plus_1	C	RPL32	False	True		P1P2
+count_plus_1	C	RPL34	False	True		P1P2
+count_plus_1	C	RPL35	False	True		P1P2
+count_plus_1	C	RPL35A	False	True		P1P2
+count_plus_1	C	RPL36	False	True		P1P2
+count_plus_1	C	RPL36A	False	False		
+count_plus_1	C	RPL36AL	True	True	P1P2	P1P2
+count_plus_1	C	RPL37	False	True		P1P2
+count_plus_1	C	RPL37A	False	True		P1P2
+count_plus_1	C	RPL38	False	True		P1P2
+count_plus_1	C	RPL39	False	True		P1P2
+count_plus_1	C	RPL39L	True	True	P1P2	P1P2
+count_plus_1	C	RPL3L	True	True	P1P2	P1P2
+count_plus_1	C	RPL4	False	True		P1P2
+count_plus_1	C	RPL41	True	True	P1P2	P1P2
+count_plus_1	C	RPL5	False	True		P1P2
+count_plus_1	C	RPL6	False	True		P1P2
+count_plus_1	C	RPL7	False	True		P1P2
+count_plus_1	C	RPL7A	False	False		
+count_plus_1	C	RPL8	False	True		P1P2
+count_plus_1	C	RPL9	False	True		P1P2
+count_plus_1	C	RPLP0	False	True		P1P2
+count_plus_1	C	RPLP1	False	True		P1P2
+count_plus_1	C	RPLP2	False	True		P1P2
+count_plus_1	C	RPS10	False	True		P1P2
+count_plus_1	C	RPS11	False	True		P1P2
+count_plus_1	C	RPS12	False	True		P1P2
+count_plus_1	C	RPS13	False	True		P1P2
+count_plus_1	C	RPS14	False	True		P1P2
+count_plus_1	C	RPS15	False	True		P1P2
+count_plus_1	C	RPS15A	False	True		P1P2
+count_plus_1	C	RPS16	False	True		P1P2
+count_plus_1	C	RPS17	False	True		ENST00000330339.7
+count_plus_1	C	RPS18	False	True		P1P2
+count_plus_1	C	RPS19	False	True		P1P2
+count_plus_1	C	RPS2	False	True		P1P2
+count_plus_1	C	RPS20	False	True		P1P2
+count_plus_1	C	RPS21	False	True		P1P2
+count_plus_1	C	RPS23	False	True		P1P2
+count_plus_1	C	RPS24	False	True		P1P2
+count_plus_1	C	RPS25	False	True		P1P2
+count_plus_1	C	RPS26	False	True		P1P2
+count_plus_1	C	RPS27	True	True	P1P2	P1P2
+count_plus_1	C	RPS27A	False	True		P1P2
+count_plus_1	C	RPS27L	True	True	P1P2	P1P2
+count_plus_1	C	RPS28	False	True		P1P2
+count_plus_1	C	RPS29	True	True	P2	P1;P2
+count_plus_1	C	RPS3	True	True	P2	P1;P2
+count_plus_1	C	RPS3A	False	True		P1P2
+count_plus_1	C	RPS4X	False	True		P1P2
+count_plus_1	C	RPS4Y1	True	True	P1P2	P1P2
+count_plus_1	C	RPS4Y2	True	True	P1P2	P1P2
+count_plus_1	C	RPS5	False	True		P1P2
+count_plus_1	C	RPS6	False	True		P1P2
+count_plus_1	C	RPS7	False	True		P1P2
+count_plus_1	C	RPS8	False	True		P1P2
+count_plus_1	C	RPS9	False	True		P1P2
+count_plus_1	C	RPSA	False	True		P1P2
+count_plus_1	C	UBA52	True	True	P2	P1;P2

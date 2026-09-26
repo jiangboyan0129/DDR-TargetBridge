@@ -1,0 +1,58 @@
+[
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "coverage/full_v3_design_construct_ledger.tsv.gz",
+    "local": "inputs/full_v3_design_construct_ledger.tsv.gz",
+    "bytes": 3671372,
+    "sha256": "27c21511a56891c8671843215d824f448a59d4119c9ef24475641ca56c595cfb"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "coverage/fixed_old_NTC_list.tsv",
+    "local": "inputs/fixed_old_NTC_list.tsv",
+    "bytes": 40973,
+    "sha256": "e28c63dac3f39094fb42c62e6fa8112da467e30ffc6129874d00e26ab90d0966"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "reference/ReactomePathways.gmt.zip",
+    "local": "inputs/ReactomePathways.gmt.zip",
+    "bytes": 298479,
+    "sha256": "8c1dbc8578431da5d2d5118262718c60b553a9be3398e93658daa069e4a9afd4"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "reference/RECEIVED_EXPLORATORY_BALANCE_LOCK.json",
+    "local": "inputs/RECEIVED_EXPLORATORY_BALANCE_LOCK.json",
+    "bytes": 4164,
+    "sha256": "4b2d2f58ef25c059088b1369d7137c02a72c52341649b760e2bbe1a3f359416e"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "balances/v3_received_common_projection_UNCHANGED.tsv",
+    "local": "inputs/v3_received_common_projection_UNCHANGED.tsv",
+    "bytes": 206,
+    "sha256": "d7943b374f9bd23d29e54558fe874a62a40ec70cba059d4fe7334a3aaa041784"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "balances/SUM_fixed_member_gene_sample_values.tsv.gz",
+    "local": "inputs/SUM_fixed_member_gene_sample_values.tsv.gz",
+    "bytes": 87887,
+    "sha256": "0026b635cc55d34243a3b3fb14d5d4284a023b8f242b9d0ad90253b8f2823f74"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "balances/SUM_balance_all_branches_and_times.tsv",
+    "local": "inputs/SUM_balance_all_branches_and_times.tsv",
+    "bytes": 9368,
+    "sha256": "ca68ec61ed11ef87aad49a141ac6077ad87608c7e65817d570b3ea7ad85bf976"
+  },
+  {
+    "source_archive": "REVIEW_INTERVENTION_AND_SELECTION.zip",
+    "member": "balances/SUM_all_fixed_pathway_members.tsv",
+    "local": "inputs/SUM_all_fixed_pathway_members.tsv",
+    "bytes": 46208,
+    "sha256": "4a1827ed611b01d5ce123637a11bd762909507d8bc36fe5643111bce24f0b8aa"
+  }
+]

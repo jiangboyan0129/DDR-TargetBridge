@@ -1,0 +1,112 @@
+{
+  "primary": {
+    "records": 106200,
+    "estimable": 44455,
+    "missing": 61745,
+    "conditions_pairs": 75,
+    "G_min": 16533,
+    "G_max": 16558,
+    "full_module_perpair_min": 586,
+    "full_module_perpair_max": 595,
+    "same_rank_direction": 24691,
+    "opposite_rank_direction": 19764,
+    "positiveT_positiveRaw_a": 3260,
+    "positiveT_positiveRaw_b": 3365,
+    "single_member_reversal_a": 14594,
+    "single_member_reversal_b": 14560,
+    "same_a_minimal": 22605,
+    "same_a_rich": 22394
+  },
+  "direct": {
+    "records": 67968,
+    "estimable": 28412,
+    "same_a_gi": 14156,
+    "same_a_minimal": 14460,
+    "same_a_rich": 14348,
+    "same_b_gi": 14214
+  },
+  "sensitivity": {
+    "EKO_complete_overlap_rows": 44380,
+    "EKO_same_Ta_direction": 44233,
+    "EKO_opposite_Ta_direction": 147,
+    "EKO_different_backgrounds": true,
+    "no_notes_pairs": 64,
+    "no_notes_estimates_identical_to_primary": true,
+    "L1_units_not_same_as_L2": true
+  },
+  "candidate_counts": {
+    "Olaparib_4uM": {
+      "evaluated": 1416,
+      "eligible": 394,
+      "nominated": 1
+    },
+    "MK-1775_320nM": {
+      "evaluated": 1416,
+      "eligible": 392,
+      "nominated": 1
+    }
+  },
+  "nominees": [
+    {
+      "anchor": "Olaparib_4uM",
+      "discovery_level": "primary_pair",
+      "comparison_id": "Round-08|Chem-0317|Chem-0325|Olaparib_4uM|Rucaparib_6_5uM",
+      "module_id": "HAP1.L2.10",
+      "members": "CCNE2|CCNF|CNTROB|GLIS3|MAML1|MAML2|PCM1|TRIM37|UBE2D2|WDYHV1",
+      "G_hash": "03a8d5406229099f9ad885cf493a693da456f7b049aebc275a2cf5c47e466054",
+      "G_N": 16550,
+      "M_hash": "5f5a45020755c28cc03c344d0a221e06d841288848d0263b23f74a92e041f06f",
+      "n_original": 10,
+      "n_observed": 10,
+      "complete": true,
+      "T": 0.0930850099691861,
+      "raw_median": -0.255,
+      "loo_min": 0.0490202001893138,
+      "loo_max": 0.152917917010721,
+      "loo_reverse": false,
+      "loo_zero": false,
+      "rank_raw_aligned": true,
+      "T_minimal": 0.1966648540873663,
+      "T_rich": 0.112700138964413,
+      "source_minimal_same_direction": true,
+      "source_rich_same_direction": true,
+      "prior_art": "UNKNOWN exact original-module claim",
+      "published_gene_overlap": "",
+      "eligible": true,
+      "exclusion_reasons": "",
+      "nominated": true,
+      "selection_rule": "lexical stable module ID; not strength"
+    },
+    {
+      "anchor": "MK-1775_320nM",
+      "discovery_level": "secondary_single",
+      "comparison_id": "MK-1775_320nM",
+      "module_id": "HAP1.L2.10",
+      "members": "CCNE2|CCNF|CNTROB|GLIS3|MAML1|MAML2|PCM1|TRIM37|UBE2D2|WDYHV1",
+      "G_hash": "db004c71022f0f8481eae4ff9a27fa1a594607a1067df6b4d41b83c154dac678",
+      "G_N": 16558,
+      "M_hash": "5f5a45020755c28cc03c344d0a221e06d841288848d0263b23f74a92e041f06f",
+      "n_original": 10,
+      "n_observed": 10,
+      "complete": true,
+      "T": 0.080022948245667,
+      "raw_median": -0.0999999999999999,
+      "loo_min": 0.0355261656970697,
+      "loo_max": 0.142322738222249,
+      "loo_reverse": false,
+      "loo_zero": false,
+      "rank_raw_aligned": true,
+      "T_minimal": 0.1963162026692433,
+      "T_rich": 0.1123920526601847,
+      "source_minimal_same_direction": true,
+      "source_rich_same_direction": true,
+      "prior_art": "UNKNOWN exact original-module claim",
+      "published_gene_overlap": "",
+      "eligible": true,
+      "exclusion_reasons": "",
+      "nominated": true,
+      "selection_rule": "lexical stable module ID; not strength"
+    }
+  ],
+  "no_association_tests": true
+}

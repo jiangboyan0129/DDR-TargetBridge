@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Editorial numeric anchors and claim limits; no new inference",
+  "scientific_revision": "Closed version inherited from final decision release 2026-09-21",
+  "claims": [
+    {
+      "id": "C01",
+      "section": "Historical motivation",
+      "status": "CANONICAL_NEGATIVE_RESULT",
+      "source_ids": [
+        "O-REPORT"
+      ],
+      "claim": "The original finite PRKDC historical rule lacked stable priority support in the evaluated A549 AZD7648 campaigns.",
+      "values": {
+        "historical_source_called": 36,
+        "evaluable_called": 12,
+        "comparators": 368,
+        "pairwise_A_R2": 0.7022,
+        "pairwise_A_R3": 0.5236,
+        "matched_A_R2": 0.6,
+        "matched_A_R3": 0.4833
+      },
+      "boundaries": [
+        "Not invalidation of DNA-PK",
+        "Missing labels are not failures",
+        "Comparators are source-not-called not established negatives",
+        "Matched diagnostic is not causal adjustment",
+        "Not independently recomputed in this build-spec turn"
+      ]
+    },
+    {
+      "id": "C02",
+      "section": "Retrospective program-level evaluation",
+      "status": "CANONICAL_FAILED_HYPOTHESIS",
+      "source_ids": [
+        "X-DISC",
+        "X-EXT",
+        "X-LOCK"
+      ],
+      "claim": "The prespecified crossed ordering for L2.32 versus L2.139 did not repeat in R2.",
+      "values": {
+        "common_background_gene_N": 16549,
+        "R2_olaparib_C": 0.3242067807989258,
+        "R2_AZD1775_C": 0.1541913393756294,
+        "required_olaparib_sign": ">0",
+        "required_AZD1775_sign": "<0"
+      },
+      "boundaries": [
+        "Both contrasts remain positive under the declared removals; hypothesis failure is not numerical instability",
+        "R2 previously exposed, not an untouched prospective test",
+        "Not an olaparib-rucaparib difference validation",
+        "Failed hypothesis results must remain prominent"
+      ]
+    },
+    {
+      "id": "C03",
+      "section": "Measurement and units",
+      "status": "CANONICAL_DESCRIPTIVE",
+      "source_ids": [
+        "V-SUM",
+        "V-LOCK",
+        "I-REC"
+      ],
+      "claim": "The shared v3 support has 19,174 eligible gene-transcript units, each with one physical dual-guide construct.",
+      "values": {
+        "eligible_gene_transcript_units": 19174,
+        "distinct_gene_labels": 17705,
+        "NTC_constructs": 1024,
+        "actual_sample_records": 16,
+        "endpoint_groups": 4,
+        "endpoint_samples_per_group": 3,
+        "real_T0_per_background": 2
+      },
+      "boundaries": [
+        "Two guides per construct are not independent constructs",
+        "Same programme and selected background lines, no multi-clone causal generalization",
+        "Do not count array rows or tests as experimental N",
+        "19,230 v3WT-only units is a different support, not a correction"
+      ]
+    },
+    {
+      "id": "C04",
+      "section": "Terminal decision",
+      "status": "CANONICAL_EXPLORATORY_SENSITIVITY",
+      "source_ids": [
+        "F-GRID",
+        "F-PROT",
+        "F-MEM",
+        "F-FLOOR"
+      ],
+      "claim": "For the fixed M-C balance, expanding transcript and gene support changes the relative pathway ordering under both declared count transforms.",
+      "pathways": {
+        "M": {
+          "id": "R-HSA-5368287",
+          "name": "Mitochondrial translation",
+          "catalogue_members": 137
+        },
+        "C": {
+          "id": "R-HSA-156842",
+          "name": "Eukaryotic Translation Elongation",
+          "catalogue_members": 99
+        }
+      },
+      "numeric_source": "source_snapshots/final/results/decision_grid.tsv",
+      "boundaries": [
+        "S0/S1/S2 are different conditional supports/weights, not alternative estimates of one identical population",
+        "S2 is not corrected biological truth",
+        "Sequential decomposition is path-dependent arithmetic, not causal attribution",
+        "No absolute protection, therapeutic window, or novel mechanism",
+        "Counts are original integer exports; final run did not independently reparse HDF5"
+      ],
+      "required_counterevidence": {
+        "S2_C_KO_vehicle_construct_sample_entries": 291,
+        "zero_entries": 63,
+        "entries_below_40": 191
+      }
+    },
+    {
+      "id": "C05",
+      "section": "Readout boundaries",
+      "status": "CANONICAL_REANALYSIS_OF_PARENT_ASSAYS",
+      "source_ids": [
+        "I-FIG5",
+        "I-EST",
+        "I-FIG5VAL",
+        "I-EXT",
+        "I-DUP"
+      ],
+      "claim": "Endpoint level, baseline-to-drug change, and stress interaction are distinct reported-scale estimands.",
+      "boundaries": [
+        "Parent-produced experiments, not user-performed wet lab",
+        "All five predefined Fig5d reagents including WRAP53 retained",
+        "No inference of equality from similar ratios",
+        "No absolute MFI/ATP decomposition or sample pairing not given",
+        "Main6f/g are subsets of Extended6d/e, not replication",
+        "No borrowing these selected-gene experiments as validation of M/C pathways"
+      ]
+    },
+    {
+      "id": "C06",
+      "section": "Temporal interpretation",
+      "status": "CANONICAL_EXPLORATORY_SUPPORT",
+      "source_ids": [
+        "I-SUM",
+        "I-SUMLOCK",
+        "T-META"
+      ],
+      "claim": "Relative control enrichment can coexist with lower normalized abundance than the predrug reference; fixed balances remain branch- and support-dependent.",
+      "boundaries": [
+        "A,B,D=A-B are not three independent experiments",
+        "Relative guide abundance is not absolute cell number",
+        "Time is not population doublings",
+        "Independent SUM programme is not matching PRDX1/AZD7648 validation",
+        "86/57 own temporal support and80/15common support differ from finalv3S0 andS2"
+      ]
+    },
+    {
+      "id": "C07",
+      "section": "Decision",
+      "status": "CANONICAL_SCOPE_CLOSURE",
+      "source_ids": [
+        "F-DEC",
+        "F-REG"
+      ],
+      "claim": "Do not escalate a stable pathway-specific protective target claim from these archived comparisons; deliver the completed source-bound research case.",
+      "boundaries": [
+        "No no-go on entire DNA-PK target class",
+        "Not claiming all public screening is unreliable",
+        "No patent/clinical efficacy/target-validation claim",
+        "No target-selection based on selecting favorable support"
+      ]
+    }
+  ],
+  "global_forbidden_upgrades": [
+    "Nature-level publication readiness",
+    "independent laboratory validation unless explicitly supported",
+    "correlation proves mechanism",
+    "confidence intervals fabricated from gene or guide counts",
+    "all biology caused by pipeline artefact",
+    "portfolio author identity inferred from file paths"
+  ],
+  "primary_figure_order": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5"
+  ]
+}

@@ -1,0 +1,548 @@
+original_source_label,literal_mis_suffix,source_called,in_primary380,original_exclusion_reason,row_specific_mismatch_guide_identity,annotation,mapping_performed
+ABL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ACTB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ACTL6A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ACTR2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ACTR5,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+ACTR8_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ADPRHL2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ALKBH1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ALKBH2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ALKBH3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ALKBH5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ANKLE1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ANKRD32,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+AP5S1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+AP5Z1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APBB1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APEX1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APEX2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APITD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APLF,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+APTX,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+AQR_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ASCC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ASCC2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ASCC3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ASF1A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ASTE1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ATM,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ATR,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+ATRIP_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ATRX_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ATXN3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+AUNIP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+AXIN2,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+BABAM1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BACH1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BARD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BCCIP_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+BIVM,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+BIVM.ERCC5,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+BLM,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BOD1L1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+BRCA1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+BRCA2,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+BRCC3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BRD8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BRE,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BRIP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+BTG2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C11orf30,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C12orf5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C14orf39,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C17orf104,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C17orf70,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C19orf40,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C1orf86,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C20orf196,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C5orf45,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C7orf49,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+C9orf142,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CBX8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CCDC155,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CCNH_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CDC14B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CDC45,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+CDC5L_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CDC7,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CDCA5_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CDK1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CDK2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CDK7_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CDK9,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CDKN2D,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CEBPG,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+CEP164,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CETN1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CETN2,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+CHAF1A,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+CHAF1B_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CHD1L,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CHEK1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+CHEK2,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+CHRNA4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CIB1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CINP,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+CLSPN,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+COPS2,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+COPS3,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+COPS4,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+COPS5,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+COPS6_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+COPS7A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+COPS7B,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+COPS8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CSNK1E,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CUL4A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CUL4B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+CXorf57,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DCLRE1A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DCLRE1B,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+DCLRE1C,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DDB1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+DDB2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DDX1,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+DDX11,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DEK,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DHX9,False,True,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+DMAP1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+DMC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DNA2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+DNTT,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+DOT1L,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+DTL,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+DTX3L,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EEPD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EGFR,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EID3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EME1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EME2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ENDOV,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EP300,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EP400,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+EPC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EPC2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ERCC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ERCC2_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ERCC3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ERCC4,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+ERCC5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ERCC6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ERCC6L2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ERCC8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ESCO2,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+ETAA1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EXD2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EXO1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EXO5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EYA1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+EYA2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EYA3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+EYA4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FAM168A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FAM175A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FAM178A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FAM35A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FAN1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCA,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCC,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCD2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCE,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCF,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+FANCG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCI_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+FANCL,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FANCM,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FBXO18,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FBXO6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FEN1,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+FGF10,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FH,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FIGN,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FIGNL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FIGNL2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FMN2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FOXM1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FTO,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FUS,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+FZR1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GADD45A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GEN1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GGN,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GINS2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GINS4_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GLTSCR2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GPS1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GTF2H1,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+GTF2H2C_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GTF2H2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GTF2H3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+GTF2H4_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+GTF2H5,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+H2AFX,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HDAC10,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HELB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HELQ,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HINFP_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+HIST3H2A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HIST3H3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HIST4H4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HMGA1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HMGA2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HMGB1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+HMGB2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HMGN1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HSF1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HUS1B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+HUS1_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+HUWE1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+IGHMBP2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ING3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+INIP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+INO80B_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+INO80C,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+INO80D,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+INO80E,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+INO80_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+INTS3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ISG15,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+JMY,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KAT5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KDM1A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KDM2A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KDM4D,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KIAA0101,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KIAA0430,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KIF22,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+KIN,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+KLHL15,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+LIG1,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+LIG3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+LIG4,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+MAD2L2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MAGEF1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MB21D1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MBD4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MBTD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MC1R,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MCM2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+MCM3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+MCM4,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+MCM5,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+MCM6_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+MCM7,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MCM8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MCM9,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MCMDC2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MCRS1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MDC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MEAF6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MEIOB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MEN1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MGME1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MGMT,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MLH1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MLH3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MMS19,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+MMS22L,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+MNAT1,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+MORF4L1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MORF4L2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MPG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MRE11A,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+MRGBP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MSH2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MSH3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MSH4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MSH5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MSH6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MTA1,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+MUM1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MUS81,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+MUTYH,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NABP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NABP2,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+NBN,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+NDNL2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NEIL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NEIL2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NEIL3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NFRKB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NHEJ1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NIPBL,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NONO,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NPAS2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NPLOC4,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+NPM1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NSMCE1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+NSMCE2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NSMCE4A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NTHL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NUCKS1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NUDT1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NUDT16,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+NUDT16L1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+OBFC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+OGG1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+OTUB1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PAGR1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PALB2,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+PAPD7,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARK7,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+PARP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARP10,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARP2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARP3,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+PARP4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARP9,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PARPBP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PAXIP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PCNA,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+PDS5A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PDS5B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PIAS4,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+PIF1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PML,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PMS1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PMS2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PNKP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLA1,False,True,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+POLB,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLD1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLD2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLD3_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLD4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLE2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLE_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLG2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLH,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLI,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLK,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLL,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLM,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+POLN,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+POLQ,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+POLR1A,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+POLR1B_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2B_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2C_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2D_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2E_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2F,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+POLR2G_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2H_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2I_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2K_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+POLR2L,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PPIE_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+PPP4C,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PPP4R2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PPP5C,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PRDM9,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PRIMPOL,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PRKCG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PRMT6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PRPF19_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+PSMD14_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+PSME4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+PTTG1,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+RAB43,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD17_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RAD18,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD21,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD21L1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD23A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD23B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD50,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD51,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+RAD51AP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD51B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD51C,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+RAD51D,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD52,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+RAD54B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD54L,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RAD9A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RAD9B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RBBP8,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+RBM17_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RBX1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RCHY1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+REC8,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RECQL,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RECQL4_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RECQL5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+REV1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+REV3L,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+REXO4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RFC1,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+RFC2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RFC3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RFC4_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RFC5_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RFWD3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RHNO1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RIF1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RMI1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RMI2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNASEH2A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNF111,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNF113A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RNF138,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNF168,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNF169,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RNF8,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+RPA1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RPA2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RPA3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RPA4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RPAIN,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+RPS27A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RPS3_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RRM1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RRM2B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RTEL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+RUVBL1_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+RUVBL2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+SAMHD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SETD2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SETMAR,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SETX,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SFPQ,False,True,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+SFR1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SHFM1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+SHPRH,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SIRT1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SIRT6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SLC30A9,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SLX1A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SLX4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMARCAD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMARCAL1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMARCB1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+SMC1A_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+SMC3,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+SMC5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMC6,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+SMCHD1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMEK2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMG1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SMUG1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPATA22,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPIDR,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPIRE1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPIRE2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPO11,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SPRTN,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SSRP1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+STRA13,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+STUB1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SUMO1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SUPT16H,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+SUV420H1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SUV420H2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SWI5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SWSAP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+SYCP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TAOK1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TAOK3,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+TCEA1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TDG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TDP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TDP2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TERF2,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+TERF2IP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TEX12,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TEX15,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TFIP11_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+TFPT,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TICRR_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+TIMELESS_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+TMEM161A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TMEM189.UBE2V1,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+TNKS1BP1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+TNP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TONSL_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+TOP3A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TOPBP1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+TP53,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TP53BP1,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+TP73,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TREX1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TREX2,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+TRIM25,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TRIM28,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TRIP12,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TRIP13,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+TRRAP,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TTC5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+TWIST1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBA52_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+UBB,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+UBC,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2A,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2B,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2D3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2L6,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2N,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2T,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2U,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2V1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2V2,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+UBE2W,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UBQLN4,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+UBR5,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+UCHL5,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UFD1L,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+UHRF1,False,True,True,included_primary,not_applicable,Exact original source label retained,False
+UIMC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UNG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UPF1,False,False,False,not_in_exact_three_way_symbol_support,not_applicable,Exact original source label retained,False
+USP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP10,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP28,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP43,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP45,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP47,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP51,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+USP7,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UVRAG,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+UVSSA,False,False,False,no_paired_complete_R3_record,not_applicable,Exact original source label retained,False
+VCP_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+VPS72_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+WAS,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+WDHD1_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+WDR33_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+WDR48,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+WDR70_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+WHSC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+WRAP53,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+WRN,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+WRNIP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XAB2_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+XPA,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XPC,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+XRCC1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XRCC2,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XRCC3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XRCC4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XRCC5_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+XRCC6BP1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+XRCC6_mis,True,True,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+YEATS4,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+YY1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZBTB1,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZBTB7A,False,False,False,R2_transcript_inconsistent,not_applicable,Exact original source label retained,False
+ZFYVE26,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZMPSTE24,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZNF365,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZNF830_mis,True,False,False,not_in_exact_three_way_symbol_support,NOT_ESTABLISHED_FROM_AVAILABLE_LOCAL_ANNOTATION,Literal source label; consistent with source study attenuated-guide design; no suffix remapping or perturbation-strength equivalence; does not establish base gene absence from destination measurements,False
+ZRANB3,False,False,True,included_primary,not_applicable,Exact original source label retained,False
+ZSWIM7,False,False,True,included_primary,not_applicable,Exact original source label retained,False

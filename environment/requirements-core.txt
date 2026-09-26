@@ -1,0 +1,3 @@
+# Observed in this release build; the original scientific definitions are unchanged.
+numpy==2.3.5
+pandas==2.2.3
