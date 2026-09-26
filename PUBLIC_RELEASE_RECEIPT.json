@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_PREFLIGHT_PASS_REMOTE_PUBLICATION_PENDING",
+  "status": "PUBLIC_REPOSITORY_PUBLISHED_CI_PASS_RELEASE_PENDING",
   "date": "2026-09-26",
   "repository": "https://github.com/jiangboyan0129/DDR-TargetBridge",
   "release_tag": "v1.0.0",
@@ -54,13 +54,15 @@
       7,
       9
     ],
-    "remote_readme": "PENDING"
+    "remote_readme": "PASS: actual browser screenshot inspected; image loaded"
   },
   "publication": {
-    "remote_created": false,
-    "push": false,
-    "CI": "PENDING",
-    "release": "PENDING"
+    "remote_created": true,
+    "push": true,
+    "CI": "PASS",
+    "release": "PENDING",
+    "CI_url": "https://github.com/jiangboyan0129/DDR-TargetBridge/actions/runs/36225101504",
+    "CI_headSha": "2bda6040cecf4a3f348269acdfa33d16ce835382"
   },
   "deliberate_exclusions": [
     "original V3 archive",

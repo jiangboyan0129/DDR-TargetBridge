@@ -1,5 +1,7 @@
 # DDR TargetBridge
 
+[![CI](https://github.com/jiangboyan0129/DDR-TargetBridge/actions/workflows/ci.yml/badge.svg)](https://github.com/jiangboyan0129/DDR-TargetBridge/actions/workflows/ci.yml)
+
 A reproducible computational functional-genomics case study on evidence boundaries in genetic-to-pharmacological target prioritization.
 
 ![The comparator changes while the mitochondrial component remains comparatively stable](figures/01_components.png)
