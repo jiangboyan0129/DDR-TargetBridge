@@ -1,19 +1,35 @@
 # DDR TargetBridge
-## When a pathway comparison changes because its members change
-**Completed computational functional-genomics case study · Public-data secondary analysis**
 
-**Question.** Does a proposed pathway priority survive changes in the genes and targeting units actually represented in a CRISPR screen?
+**Comparator membership in a DNA-PK inhibitor screen**
 
-**Approach.** Reanalyse one A549 WT/PRDX1-KO × vehicle/AZD7648 experiment. Keep pathway definitions, three support views and two count transforms fixed; separate the mitochondrial-translation arm from the Eukaryotic Translation Elongation comparator; preserve every sample and the low-count limitations.
+## Research question
 
-![The comparator changes, not the mitochondrial component](../figures/01_components.png)
+Can a pathway-prioritization argument retain its direction when the genes and annotation-defined targeting units included in the comparison change?
 
-**Key result.** The conditional balance changes from **+0.861 to −1.761**. The mitochondrial arm remains near **+1.05**, while the comparator changes from **+0.183 to +2.814**. Restoring comparator coverage also restores many low-count observations. The analysis does not establish which population represents biological truth.
+## Approach
 
-**What this project adds.** A specific empirical diagnosis of comparator-population dependence, a transparent decomposition of targeting-unit versus gene membership, and runnable source-table/count-export workflows. Earlier failed transfer predictions remain separate histories, not validation of the main result.
+This public-data case study examines an A549 WT/PRDX1-KO × vehicle/AZD7648 screen. It compares fixed mitochondrial-translation (M) and translation-elongation (E) sets under three support views and two transformations, separating targeting-unit changes from additional genes.
 
-**Decision and limit.** Do not elevate the original positive balance to a mitochondrial-specific target claim from this archive. This is not a new mechanism, clinical biomarker or universal correction method.
+## Main result
 
-**Responsibility.** Original investigators generated the experiments. The project used AI-assisted scientific discussion, coding, testing and writing. Project-level contributions and the personal-responsibility boundary are documented separately.
+M was nearly stable. E changed as its supported population expanded from 23 to 91 genes; the M−E contrast changed from **+0.861 to −1.761** under zero-only replacement. Count+1 gave the same sign reversal. The added E population also included many low-count observations.
 
-**Inspect.** Read `reports/CASE_STUDY.pdf`; start reproduction with `python tools/run.py verify`. The README links methods, contributions and exact sources. Primary data: O’Loughlin et al., Nature Chemical Biology (2026), doi:10.1038/s41589-026-02312-z.
+## Interpretation
+
+The initial positive contrast is not a membership-insensitive basis for a mitochondrial-specific priority. Expanded coverage is not a corrected biological truth. The result is a local empirical diagnosis, not target validation or a new mechanism.
+
+## Contribution and attribution
+
+The project adds source-linked analyses, a decomposition of comparator composition, and tested reproduction paths. Original investigators performed the experiments. AI assisted analysis discussion, code, testing, figures and writing; personal contribution claims should reflect actual involvement.
+
+## Inspect and reproduce
+
+Report: `reports/DDR_TargetBridge_Case_Study.pdf`.
+
+Public core: `python tools/run.py core --output .build/core-1`.
+
+The public command begins with released transformed gene/sample records; it does not redo count qualification or normalization. Historical workbook workflows require separately retrieved source files.
+
+Repository: https://github.com/jiangboyan0129/DDR-TargetBridge
+
+Original screen: O'Loughlin et al., *Nature Chemical Biology* (2026), DOI: 10.1038/s41589-026-02312-z.

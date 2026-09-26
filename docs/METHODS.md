@@ -1,6 +1,8 @@
 # Methods: what is estimated, and at which level
 
 ## Scope and input
+The following upstream count methods describe the original analysis. The public `core` command begins after them, at released transformed gene/sample observations; it does not redo count qualification, normalization or transcript aggregation. The exact count export is not distributed in this public tree.
+
 The main case starts from the unchanged complete v3 count export (`data/derived/final_count_export.tsv.gz`). It has 64,237 physical constructs and 16 actual sample records. WT and PRDX1-KO each have two real T0 records and three records in each vehicle/drug endpoint group. The source study reports A549 CRISPRi, 625 nM AZD7648 and an 11-day exposure. This is not a new independent clone experiment or an absolute cell-count assay.
 
 ## Identity and support

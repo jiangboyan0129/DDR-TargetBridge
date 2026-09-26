@@ -1,0 +1,25 @@
+{
+  "purpose": "Byte identity of the unchanged public derived-core inputs. Not a raw-count or biological validation.",
+  "files": [
+    {
+      "path": "results/canonical/support_views/decision_grid.tsv",
+      "bytes": 2325,
+      "sha256": "43b9aaf4538dba0a28650c5bfd714a2cc07285b5d1d848fd21132b948c1078ca"
+    },
+    {
+      "path": "results/canonical/support_views/pathway_membership.tsv",
+      "bytes": 18875,
+      "sha256": "56662cc451deace0af64f7741cbdbd8b4449ef4c61d4647492a97fc3553d40b4"
+    },
+    {
+      "path": "results/canonical/support_views/pathway_sample_values.tsv",
+      "bytes": 13315,
+      "sha256": "df67cfdf420d4ff3c2db7245e158c05ec8ea26e359a045045ca7ae826c211c8f"
+    },
+    {
+      "path": "results/extended/support_views/member_sample_values.tsv.gz",
+      "bytes": 170449,
+      "sha256": "24281bf6fe6fe11b461d622193be04eec9ed563c416c09cf63f9c2818186da6f"
+    }
+  ]
+}
