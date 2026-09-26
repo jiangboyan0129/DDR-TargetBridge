@@ -1,5 +1,5 @@
 {
-  "status": "PUBLIC_REPOSITORY_PUBLISHED_CI_PASS_RELEASE_PENDING",
+  "status": "GITHUB_PUBLIC_RELEASE_COMPLETE",
   "date": "2026-09-26",
   "repository": "https://github.com/jiangboyan0129/DDR-TargetBridge",
   "release_tag": "v1.0.0",
@@ -54,15 +54,54 @@
       7,
       9
     ],
-    "remote_readme": "PASS: actual browser screenshot inspected; image loaded"
+    "remote_readme": "PASS: live image and single CI badge rendered",
+    "remote_report": "PASS: clicked from README and inspected GitHub PDF preview",
+    "remote_actions": "PASS: actual browser page shows successful release-commit runs",
+    "remote_release": "PASS: actual release page and four assets verified"
   },
   "publication": {
     "remote_created": true,
     "push": true,
     "CI": "PASS",
-    "release": "PENDING",
-    "CI_url": "https://github.com/jiangboyan0129/DDR-TargetBridge/actions/runs/36225101504",
-    "CI_headSha": "2bda6040cecf4a3f348269acdfa33d16ce835382"
+    "release": "PUBLISHED",
+    "CI_url": "https://github.com/jiangboyan0129/DDR-TargetBridge/actions/runs/36225169241",
+    "CI_headSha": "57e28012950cecbd8dc597e4c2b7c5e9ce0959f7",
+    "release_url": "https://github.com/jiangboyan0129/DDR-TargetBridge/releases/tag/v1.0.0",
+    "release_commit": "57e28012950cecbd8dc597e4c2b7c5e9ce0959f7",
+    "release_id": 397131374,
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "assets": [
+      {
+        "name": "DDR_TargetBridge_Case_Study.pdf",
+        "bytes": 561551,
+        "sha256": "74bd27ccc1580a1c6053df0c6c94b4bab0aac861d3a88bc501f9b6413cf13016",
+        "url": "https://github.com/jiangboyan0129/DDR-TargetBridge/releases/download/v1.0.0/DDR_TargetBridge_Case_Study.pdf",
+        "remote_hash_verified": true
+      },
+      {
+        "name": "DDR_TargetBridge_Project_Brief.pdf",
+        "bytes": 189875,
+        "sha256": "8108867350bdfa42d131cf9314c2958b84b216529d7dc11b3ec4feed927328b2",
+        "url": "https://github.com/jiangboyan0129/DDR-TargetBridge/releases/download/v1.0.0/DDR_TargetBridge_Project_Brief.pdf",
+        "remote_hash_verified": true
+      },
+      {
+        "name": "DDR_TargetBridge_Slides.pdf",
+        "bytes": 412357,
+        "sha256": "d3fe172ca1b6414eb472c862b21b61247507e6eeeff8fc8ae2ca2aa7d7ffe30d",
+        "url": "https://github.com/jiangboyan0129/DDR-TargetBridge/releases/download/v1.0.0/DDR_TargetBridge_Slides.pdf",
+        "remote_hash_verified": true
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 293,
+        "sha256": "6b2b0d4abf76226e59399a7777cf0db15352d5488cc646873cc4b877bedacbdd",
+        "url": "https://github.com/jiangboyan0129/DDR-TargetBridge/releases/download/v1.0.0/SHA256SUMS.txt",
+        "remote_hash_verified": true
+      }
+    ],
+    "receipt_scope": "Records the published release commit and its passed CI. A later main-branch documentation-only commit records this completed publication; no scientific content differs."
   },
   "deliberate_exclusions": [
     "original V3 archive",
