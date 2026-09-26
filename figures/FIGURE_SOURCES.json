@@ -2,6 +2,9 @@
   "01_components": [
     "results/canonical/support_views/decision_grid.tsv"
   ],
+  "01_balance": [
+    "results/canonical/support_views/decision_grid.tsv"
+  ],
   "02_comparator_members": [
     "revision/results/revision/retained_added_gene_values.tsv"
   ],

@@ -1,85 +1,127 @@
 #!/usr/bin/env python3
-"""Replot accepted tables only. No refitting, new selection, or biological inference."""
+"""Publication-style replot of the unchanged, released observations.
+
+No new analysis, inferential intervals, outcome selection or source retrieval.
+Text remains editable in SVG/PDF. All source tables are recorded alongside plots.
+"""
+from __future__ import annotations
+import argparse
+import hashlib
+import json
 from pathlib import Path
-import argparse,json,hashlib
 import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-R=Path(__file__).resolve().parents[1]
-def build(out):
- if out.exists():raise FileExistsError('Use a new figure output directory')
- out.mkdir(parents=True)
- grid=pd.read_csv(R/'results/canonical/support_views/decision_grid.tsv',sep='\t')
- g=grid[grid['transform'].eq('zero_only_0.5')]
- figs=[]
- def save(fig,name):
-  fig.savefig(out/(name+'.png'),dpi=180,bbox_inches='tight')
-  fig.savefig(out/(name+'.svg'),bbox_inches='tight')
-  plt.close(fig);figs.append(name)
- # Plain labels before code names; three components on one unchanged scale.
- fig,ax=plt.subplots(figsize=(9.4,5.6))
- for col,label,mark in [('M_theta_KO_minus_WT','M: mitochondrial translation','o'),('C_theta_KO_minus_WT','E: translation-elongation comparator','s'),('theta_KO_minus_WT','M − E: pathway balance','D')]:
-  vals=g[col].to_numpy();ax.plot(range(3),vals,marker=mark,linewidth=2,label=label)
-  for x,y in enumerate(vals):
-   offset = ((29, -2) if x==0 else ((0, 9) if x==2 else (0, -18))) if col=='theta_KO_minus_WT' else (0, 9)
-   ax.annotate(f'{y:+.3f}',(x,y),xytext=offset,textcoords='offset points',ha='center',fontsize=10)
- ax.axhline(0,linestyle=':',linewidth=1)
- ax.set_xticks(range(3),['S0: original support\nM 89 / E 23','S1: same genes,\nmore targeting units\nM 89 / E 23','S2: T0-qualified support\nM 94 / E 91'])
- ax.set_ylabel('Conditional drug-response contrast (log-count description)')
- ax.set_title('The comparator changes; the mitochondrial component is nearly stable',pad=58,fontsize=13)
- ax.legend(loc='lower left',bbox_to_anchor=(0,1.01),fontsize=9)
- ax.set_xlim(-.2,2.2);ax.set_ylim(-2.15,3.35)
- fig.text(.10,.015,'Zero-only replacement: zeros → 0.5; positive counts unchanged. No biological confidence intervals.\nDifferent support views summarize different populations. Count+1 gives the same sign reversal (all six values in the report).',fontsize=8.5)
- fig.tight_layout(rect=(0,.11,1,1));save(fig,'01_components')
- genes=pd.read_csv(R/'revision/results/revision/retained_added_gene_values.tsv',sep='\t')
- fig,ax=plt.subplots(figsize=(9.2,4.7));labels=[]
- for x,(tr,pop,n) in enumerate([('zero_only_0.5','retained_T0_transcripts',23),('zero_only_0.5','added_T0_genes',68),('count_plus_1','retained_T0_transcripts',23),('count_plus_1','added_T0_genes',68)]):
-  f=genes[genes['transform'].eq(tr)&genes.pathway.eq('C')&genes.population.eq(pop)].sort_values('gene');ys=f.theta_KO_minus_WT.to_numpy();assert len(ys)==n
-  jit=np.array([int(hashlib.sha256(v.encode()).hexdigest()[:8],16)/0xffffffff-.5 for v in f.gene])*.34
-  ax.scatter(x+jit,ys,s=17,alpha=.65)
-  ax.plot([x-.20,x+.20],[ys.mean()]*2,linewidth=2)
-  labels.append(('Retained' if n==23 else 'Added')+f' E genes\nn={n}\n'+('Zero → 0.5' if tr.startswith('zero') else 'Count+1'))
- ax.axhline(0,linestyle=':',linewidth=1);ax.set_xticks(range(4),labels)
- ax.set_ylabel('Gene-level conditional log-count contrast')
- ax.set_title('The added comparator members have a different observed distribution',fontsize=13,pad=14)
- fig.text(.10,.015,'All E genes under S2 targeting-unit support are shown. Short lines are means, not uncertainty intervals.\nGroups follow the frozen eligibility records. Genes are not independent biological replicates.',fontsize=8.5)
- fig.tight_layout(rect=(0,.12,1,1));save(fig,'02_comparator_members')
- floors=pd.read_csv(R/'results/canonical/support_views/count_floor.tsv',sep='\t')
- f=floors[floors['transform'].eq('zero_only_0.5')&floors.support.eq('S2_T0_genes_T0_transcripts')&floors.pathway.eq('C')]
- records=[f[f.background.eq(b)&f.condition.eq(c)].iloc[0] for b,c in [('parent','vehicle'),('parent','DNAPKi'),('PRDX1KO','vehicle'),('PRDX1KO','DNAPKi')]]
- z=np.array([x.zero_cells for x in records]);low=np.array([x.below40_cells-x.zero_cells for x in records]);high=np.array([x.cells-x.below40_cells for x in records])
- fig,ax=plt.subplots(figsize=(8.9,4.8));x=np.arange(4)
- ax.bar(x,z,label='Zero');ax.bar(x,low,bottom=z,label='1–39');ax.bar(x,high,bottom=z+low,label='≥40')
- for i,rr in enumerate(records):ax.text(i,rr.cells+4,f'{int(rr.zero_cells)} zero\n{int(rr.below40_cells)} <40',ha='center',fontsize=9)
- ax.set_xticks(x,['WT vehicle','WT AZD7648','KO vehicle','KO AZD7648']);ax.set_ylim(0,360)
- ax.set_ylabel('Construct × sample count entries');ax.set_title('Broader comparator coverage also reaches the count floor',fontsize=13,pad=35)
- ax.legend(ncol=3,loc='lower left',bbox_to_anchor=(0,1.01),fontsize=9)
- fig.text(.10,.015,'Expanded E set: 91 genes, 97 constructs, three endpoint records per group. Each bar totals 291 entries.\nCategories are disjoint; the “<40” label includes zeros. Counts are not cell numbers or independent experiments.',fontsize=8.5)
- fig.tight_layout(rect=(0,.12,1,1));save(fig,'03_count_floor')
- s=pd.read_csv(R/'results/canonical/support_views/pathway_sample_values.tsv',sep='\t')
- samples=s[s['transform'].eq('zero_only_0.5')].copy()
- gr=[('parent','T0'),('parent','vehicle'),('parent','DNAPKi'),('PRDX1KO','T0'),('PRDX1KO','vehicle'),('PRDX1KO','DNAPKi')]
- for arm,name in [('M','M: mitochondrial translation'),('C','E: translation-elongation comparator')]:
-  fig,ax=plt.subplots(figsize=(9.5,4.9))
-  for k,view in enumerate(g.support):
-   f=samples[samples.support.eq(view)];xs=[];ys=[]
-   for j,(b,c) in enumerate(gr):
-    chunk=f[f.sample_id.str.contains('A549_'+b+'__',regex=False)&f.sample_id.str.contains('__'+c+'__',regex=False)].sort_values('sample_id')
-    assert len(chunk)==(2 if c=='T0' else 3)
-    for h,(_,rr) in enumerate(chunk.iterrows()):xs.append(j+(k-1)*.20+(h-(len(chunk)-1)/2)*.045);ys.append(rr[arm])
-   ax.scatter(xs,ys,s=30,marker=['o','s','^'][k],label=['S0','S1','S2'][k])
-  ax.axhline(0,linestyle=':',linewidth=1);ax.set_xticks(range(6),['WT T0','WT vehicle','WT drug','KO T0','KO vehicle','KO drug']);ax.set_ylabel('NTC-centred mean log-count description');ax.set_title(name+' — every real sample record',fontsize=13,pad=12);ax.legend(ncol=3)
-  fig.text(.10,.015,'Each support view reuses the same 16 sample identities: two real T0 per background and three records per endpoint.\nPoints are culture records, not independent clones. Zero-only transformation; all count+1 sample values remain in the tables.',fontsize=8.5)
-  fig.tight_layout(rect=(0,.12,1,1));save(fig,'04_samples_'+arm)
- mapping={
- '01_components':['results/canonical/support_views/decision_grid.tsv'],
- '02_comparator_members':['revision/results/revision/retained_added_gene_values.tsv'],
- '03_count_floor':['results/canonical/support_views/count_floor.tsv'],
- '04_samples_M':['results/canonical/support_views/pathway_sample_values.tsv'],
- '04_samples_C':['results/canonical/support_views/pathway_sample_values.tsv']}
- (out/'FIGURE_SOURCES.json').write_text(json.dumps(mapping,indent=2)+'\n')
- return figs
+
+ROOT=Path(__file__).resolve().parents[1]
+VIEWS=['S0_old_genes_old_transcripts','S1_old_genes_T0_transcripts','S2_T0_genes_T0_transcripts']
+
+
+def build(out: Path) -> list[str]:
+    if out.exists():
+        raise FileExistsError('Use a fresh figure output directory')
+    out.mkdir(parents=True)
+    # No custom color palette: the Matplotlib default cycle is used consistently
+    # within each plotted quantity. Shape and line style distinguish transforms.
+    plt.rcParams.update({
+        'font.family':'DejaVu Sans', 'font.size':10, 'axes.labelsize':10,
+        'axes.titlesize':11, 'legend.fontsize':9,
+        'axes.spines.top':False, 'axes.spines.right':False,
+        'axes.linewidth':0.7, 'xtick.major.width':0.7,'ytick.major.width':0.7,
+        'svg.fonttype':'none','pdf.fonttype':42,'ps.fonttype':42,
+        'svg.hashsalt':'DDR-TargetBridge-v1.0.1',
+        'savefig.dpi':220,
+    })
+    grid=pd.read_csv(ROOT/'results/canonical/support_views/decision_grid.tsv',sep='\t')
+    paths={}
+    def save(fig,name,sources):
+        fig.tight_layout(pad=1.25)
+        fig.savefig(out/(name+'.png'),bbox_inches='tight')
+        fig.savefig(out/(name+'.svg'),bbox_inches='tight',metadata={'Date':None})
+        fig.savefig(out/(name+'.pdf'),bbox_inches='tight',metadata={'CreationDate':None,'ModDate':None})
+        plt.close(fig)
+        paths[name]=sources
+    def support_axis(ax):
+        ax.set_xticks(range(3),['S0\n89 M / 23 E','S1\n89 M / 23 E','S2\n94 M / 91 E'])
+        ax.set_xlim(-.15,2.15)
+        ax.set_xlabel('Analysis support (not time)')
+
+    fig,ax=plt.subplots(figsize=(6.5,4.0))
+    for transform,style,fill,desc in [('zero_only_0.5','-','full','zero-only'),('count_plus_1','--','none','count + 1')]:
+        ax.set_prop_cycle(None)
+        block=grid[grid['transform'].eq(transform)].set_index('support').loc[VIEWS]
+        for col,arm,marker in [('M_theta_KO_minus_WT','M','o'),('C_theta_KO_minus_WT','E','s')]:
+            ax.plot(range(3),block[col],linestyle=style,marker=marker,fillstyle=fill,
+                    markersize=5,linewidth=1.3,label=f'{arm}, {desc}')
+    support_axis(ax);ax.set_ylabel('Conditional component, θ\n(log-abundance units)')
+    ax.set_ylim(-.08,3.35);ax.legend(frameon=False,ncol=2,loc='upper left')
+    save(fig,'01_components',['results/canonical/support_views/decision_grid.tsv'])
+
+    fig,ax=plt.subplots(figsize=(6.5,3.8))
+    for transform,desc,marker,style in [('zero_only_0.5','Zeros → 0.5','o','-'),('count_plus_1','Count + 1','s','--')]:
+        block=grid[grid['transform'].eq(transform)].set_index('support').loc[VIEWS]
+        ax.plot(range(3),block.theta_KO_minus_WT,marker=marker,linestyle=style,markersize=5,linewidth=1.3,label=desc)
+    ax.axhline(0,linestyle=':',linewidth=.7)
+    support_axis(ax);ax.set_ylabel('Pathway contrast, θ(M) − θ(E)\n(log-abundance units)')
+    ax.set_ylim(-2.05,1.4);ax.legend(frameon=False,ncol=2,loc='upper right')
+    save(fig,'01_balance',['results/canonical/support_views/decision_grid.tsv'])
+
+    genes=pd.read_csv(ROOT/'revision/results/revision/retained_added_gene_values.tsv',sep='\t')
+    fig,ax=plt.subplots(figsize=(6.5,4.0))
+    labels=[]
+    for t,transform in enumerate(['zero_only_0.5','count_plus_1']):
+        ax.set_prop_cycle(None)
+        for k,(pop,n,label) in enumerate([('retained_T0_transcripts',23,'Retained'),('added_T0_genes',68,'Added')]):
+            x=2*t+k;f=genes[genes['transform'].eq(transform)&genes.pathway.eq('C')&genes.population.eq(pop)].sort_values('gene')
+            if len(f)!=n:raise ValueError('Frozen comparator membership count differs')
+            y=f.theta_KO_minus_WT.to_numpy()
+            jitter=np.array([int(hashlib.sha256(v.encode()).hexdigest()[:8],16)/0xffffffff-.5 for v in f.gene])*.34
+            # One plot call per population; no random downsampling or selected genes.
+            ax.plot(x+jitter,y,linestyle='none',marker='o' if t==0 else 's',markersize=3.4,alpha=.70,label=label if t==0 else None)
+            ax.annotate(f'{y.mean():+.3f}',(x,y.mean()),xytext=(20,0),textcoords='offset points',fontsize=8,va='center')
+            ax.hlines(y.mean(), x-.21, x+.21, linewidth=1.0)
+            # Mean marks are not uncertainty intervals.
+            labels.append(f'{label}\nn = {n}')
+    ax.axhline(0,linestyle=':',linewidth=.7)
+    ax.set_xticks(range(4),labels);ax.set_ylabel('Gene-level conditional contrast\n(log-abundance units)')
+    ax.set_xlabel('Zero-only transformation                 Count + 1')
+    ax.set_xlim(-.5,3.65)
+    save(fig,'02_comparator_members',['revision/results/revision/retained_added_gene_values.tsv'])
+
+    floor=pd.read_csv(ROOT/'results/canonical/support_views/count_floor.tsv',sep='\t')
+    f=floor[floor['transform'].eq('zero_only_0.5')&floor.support.eq(VIEWS[2])&floor.pathway.eq('C')]
+    ordered=[f[f.background.eq(b)&f.condition.eq(c)].iloc[0] for b,c in [('parent','vehicle'),('parent','DNAPKi'),('PRDX1KO','vehicle'),('PRDX1KO','DNAPKi')]]
+    zeros=np.array([r.zero_cells for r in ordered]);low=np.array([r.below40_cells-r.zero_cells for r in ordered]);high=np.array([r.cells-r.below40_cells for r in ordered])
+    fig,ax=plt.subplots(figsize=(6.5,4.0));x=np.arange(4)
+    ax.bar(x,zeros,width=.64,label='0');ax.bar(x,low,width=.64,bottom=zeros,label='1–39');ax.bar(x,high,width=.64,bottom=zeros+low,label='≥40')
+    for i,r in enumerate(ordered):ax.text(i,r.cells+6,f'{int(r.zero_cells)} zero',ha='center',fontsize=8.5)
+    ax.set_xticks(x,['WT\nvehicle','WT\nAZD7648','KO\nvehicle','KO\nAZD7648'])
+    ax.set_ylabel('Construct × sample entries');ax.set_ylim(0,365)
+    ax.legend(frameon=False,ncol=3,loc='upper center',title='Raw count',fontsize=9,title_fontsize=9)
+    save(fig,'03_count_floor',['results/canonical/support_views/count_floor.tsv'])
+
+    samples=pd.read_csv(ROOT/'results/canonical/support_views/pathway_sample_values.tsv',sep='\t')
+    samples=samples[samples['transform'].eq('zero_only_0.5')]
+    groups=[('parent','T0'),('parent','vehicle'),('parent','DNAPKi'),('PRDX1KO','T0'),('PRDX1KO','vehicle'),('PRDX1KO','DNAPKi')]
+    for arm in ['M','C']:
+        fig,ax=plt.subplots(figsize=(6.5,3.8))
+        for k,view in enumerate(VIEWS):
+            f=samples[samples.support.eq(view)];xs=[];ys=[]
+            for j,(background,condition) in enumerate(groups):
+                q=f[f.sample_id.str.contains('A549_'+background+'__',regex=False)&f.sample_id.str.contains('__'+condition+'__',regex=False)].sort_values('sample_id')
+                if len(q)!=(2 if condition=='T0' else 3):raise ValueError('Unexpected sample count')
+                for h,value in enumerate(q[arm]):xs.append(j+(k-1)*.20+(h-(len(q)-1)/2)*.045);ys.append(value)
+            ax.plot(xs,ys,linestyle='none',marker=['o','s','^'][k],markersize=4.5,label=['S0','S1','S2'][k])
+        ax.set_xticks(range(6),['WT\nT0','WT\nvehicle','WT\ndrug','KO\nT0','KO\nvehicle','KO\ndrug'])
+        ax.set_ylabel(('M' if arm=='M' else 'E')+': centred mean log abundance')
+        ax.legend(frameon=False,ncol=3,loc='upper right');ax.axhline(0,linestyle=':',linewidth=.7)
+        save(fig,'04_samples_'+arm,['results/canonical/support_views/pathway_sample_values.tsv'])
+    (out/'FIGURE_SOURCES.json').write_text(json.dumps(paths,indent=2)+'\n')
+    return list(paths)
+
+
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args();print(build(a.output.resolve()))
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path,required=True)
+    print(build(parser.parse_args().output.resolve()))
